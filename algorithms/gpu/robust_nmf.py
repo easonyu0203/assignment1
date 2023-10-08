@@ -1,4 +1,5 @@
 import torch
+import numpy as np
 
 from algorithms.gpu.nmf_base import NMFBase
 
@@ -15,11 +16,11 @@ class RobustNMF(NMFBase):
     - E: Error matrix representing noise or outliers.
     """
 
-    def __init__(self, V: torch.Tensor, num_features: int, lambda_param: float, learning_rate: float = 0.001, **kwargs):
+    def __init__(self, V: np.array, num_features: int, lambda_param: float, learning_rate: float = 0.001, **kwargs):
         super().__init__(V, num_features, **kwargs)
         self.lambda_param = lambda_param
         self.learning_rate = learning_rate
-        self.E = torch.zeros_like(V)
+        self.E = torch.zeros_like(self.V)
 
     def update_step(self) -> None:
         """

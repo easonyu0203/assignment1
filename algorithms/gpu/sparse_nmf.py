@@ -1,4 +1,5 @@
 import torch
+import numpy as np
 
 from algorithms.gpu.nmf_base import NMFBase
 
@@ -14,7 +15,7 @@ class SparseNMF(NMFBase):
     - beta: Regularization parameter for the W matrix.
     """
 
-    def __init__(self, V: torch.Tensor, num_features: int, alpha: float = 1.0, beta: float = 1.0, **kwargs):
+    def __init__(self, V: np.array, num_features: int, alpha: float = 1.0, beta: float = 1.0, **kwargs):
         super().__init__(V, num_features, **kwargs)
         self.alpha = alpha
         self.beta = beta
