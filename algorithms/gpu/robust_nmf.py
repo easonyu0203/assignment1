@@ -2,6 +2,7 @@ import torch
 import numpy as np
 
 from algorithms.gpu.nmf_base import NMFBase
+from utils.lr_scheduler import LearningRateScheduler
 
 
 class RobustNMF(NMFBase):
@@ -16,20 +17,25 @@ class RobustNMF(NMFBase):
     - E: Error matrix representing noise or outliers.
     """
 
-    def __init__(self, V: np.array, num_features: int, lambda_param: float, learning_rate: float = 0.001, **kwargs):
+    def __init__(self, V: np.array, num_features: int, lambda_param: float, start_learning_rate: float = 0.001,
+                 end_learning_rate: float = 0.0001, **kwargs):
         super().__init__(V, num_features, **kwargs)
         self.lambda_param = lambda_param
-        self.learning_rate = learning_rate
+        self.scheduler = LearningRateScheduler(start_learning_rate, end_learning_rate, self.max_iters)
+        self.learning_rate = start_learning_rate
         self.E = torch.zeros_like(self.V)
 
-    def update_step(self) -> None:
+    def update_step(self, current_iter: int) -> None:
         """
         Implements the gradient descent update rules for Robust NMF.
         """
+
         WH = torch.mm(self.W, self.H)
         gradient_W = -torch.mm(self.V - WH - self.E, self.H.t())
         gradient_H = -torch.mm(self.W.t(), self.V - WH - self.E)
 
+        # Use learning rate from the scheduler
+        self.learning_rate = self.scheduler.get_lr(current_iter)
         self.W = self.W - self.learning_rate * gradient_W
         self.H = self.H - self.learning_rate * gradient_H
 

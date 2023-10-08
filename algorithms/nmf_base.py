@@ -30,7 +30,7 @@ class NMFBase:
         self.W = np.abs(np.random.randn(V.shape[0], num_features))
         self.H = np.abs(np.random.randn(num_features, V.shape[1]))
 
-    def update_step(self) -> None:
+    def update_step(self, current_iter: int) -> None:
         """
         Implement the matrix update steps for the specific NMF variant.
         """
@@ -54,8 +54,8 @@ class NMFBase:
 
         iterator = tqdm(range(self.max_iters), desc=f"{self.__class__.__name__} Progress") if use_tqdm else range(
             self.max_iters)
-        for _ in iterator:
-            self.update_step()
+        for current_iter in iterator:
+            self.update_step(current_iter)
 
             current_metrics = self.metrics()
             for metric in metrics_keys:

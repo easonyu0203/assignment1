@@ -1,5 +1,3 @@
-from concurrent.futures import ProcessPoolExecutor
-
 import faiss
 import numpy as np
 import torch
@@ -22,7 +20,7 @@ class NMFBase:
         self.W = torch.abs(torch.randn(V.shape[0], num_features, device='mps'))
         self.H = torch.abs(torch.randn(num_features, V.shape[1], device='mps'))
 
-    def update_step(self) -> None:
+    def update_step(self, current_iter: int) -> None:
         raise NotImplementedError
 
     def metrics(self) -> dict:
@@ -38,8 +36,8 @@ class NMFBase:
         early_stopping = EarlyStopping(patience, tol) if early_stop else None
 
         iterator = tqdm(range(self.max_iters), desc=f"{self.__class__.__name__} Progress") if use_tqdm else range(self.max_iters)
-        for _ in iterator:
-            self.update_step()
+        for current_iter in iterator:
+            self.update_step(current_iter)
             current_metrics = self.metrics()
             for metric in metrics_keys:
                 metrics_values[metric].append(current_metrics.get(metric, 0))

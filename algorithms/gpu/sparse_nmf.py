@@ -20,7 +20,7 @@ class SparseNMF(NMFBase):
         self.alpha = alpha
         self.beta = beta
 
-    def update_step(self) -> None:
+    def update_step(self, current_iter: int) -> None:
         """
         Implements the multiplicative update rules for Sparse NMF with L1 regularization.
         """

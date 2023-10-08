@@ -8,7 +8,7 @@ class MultiplicativeUpdateNMF(NMFBase):
     NMF using multiplicative update rules.
     """
 
-    def update_step(self):
+    def update_step(self, current_iter: int):
         numerator = torch.mm(self.W.t(), self.V)
         denominator = torch.mm(self.W.t(), torch.mm(self.W, self.H)) + self.epsilon
         self.H *= numerator / denominator

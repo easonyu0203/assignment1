@@ -8,7 +8,7 @@ class MultiplicativeUpdateNMF(NMFBase):
     NMF using multiplicative update rules.
     """
 
-    def update_step(self):
+    def update_step(self, current_iter: int):
         numerator = np.dot(self.W.T, self.V)
         denominator = np.dot(self.W.T, np.dot(self.W, self.H)) + self.epsilon
         self.H *= numerator / denominator

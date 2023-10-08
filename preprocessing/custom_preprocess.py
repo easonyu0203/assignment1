@@ -60,9 +60,12 @@ class ImagePreprocessor:
 
         # Reshape the flattened image back to its original shape
         img_2d = img_array.reshape(self.original_shape)
+        
+        # Ensure all values are within the range [0, 1]
+        clamped_img_2d = np.clip(img_2d, 0, 1)
 
         # Inverse normalization: convert [0, 1] range to [0, 255]
-        inv_normalized_img = (img_2d * 255).astype(np.uint8)
+        inv_normalized_img = (clamped_img_2d * 255).astype(np.uint8)
 
         # Convert the numpy array back to a PIL Image
         return Image.fromarray(inv_normalized_img)
