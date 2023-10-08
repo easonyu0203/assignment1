@@ -13,12 +13,12 @@ from utils.early_stopping import EarlyStopping
 
 class NMFBase:
     def __init__(self, V: np.array, num_features: int, max_iters: int = 1000, epsilon: float = 1e-10):
-        self.V = torch.tensor(V, dtype=torch.float32, device='mps')
+        self.V = torch.tensor(V, dtype=torch.float32, device='cuda')
         self.num_features = num_features
         self.max_iters = max_iters
         self.epsilon = epsilon
-        self.W = torch.abs(torch.randn(V.shape[0], num_features, device='mps'))
-        self.H = torch.abs(torch.randn(num_features, V.shape[1], device='mps'))
+        self.W = torch.abs(torch.randn(V.shape[0], num_features, device='cuda'))
+        self.H = torch.abs(torch.randn(num_features, V.shape[1], device='cuda'))
 
     def update_step(self, current_iter: int) -> None:
         raise NotImplementedError
@@ -45,7 +45,9 @@ class NMFBase:
                 iterator.set_postfix(current_metrics)
             if early_stop and early_stopping.stop(current_metrics["Reconstruction RMSE"]):
                 if use_tqdm:
-                    iterator.set_postfix({"Status": "Early Stopping", "Best Error": f"{early_stopping.best_error:.4f}"})
+                    early_stop_dict = {"Status": "Early Stopping"}
+                    early_stop_dict.update(current_metrics)
+                    iterator.set_postfix(early_stop_dict)
                 break
 
         if plot_metrics:

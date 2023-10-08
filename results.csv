@@ -1,0 +1,121 @@
+name,reconstructed_images_path,nmf,dataset,noises,acc,nmi,rmse
+robust_yaleB_[]_0,./images/robust_yaleB_[]_0,robust,yaleB,[],0.12753222836095765,0.15233071596934145,0.08700354397296906
+robust_yaleB_[]_1,./images/robust_yaleB_[]_1,robust,yaleB,[],0.12661141804788215,0.15460207676530285,0.08619870990514755
+robust_yaleB_[]_2,./images/robust_yaleB_[]_2,robust,yaleB,[],0.11924493554327809,0.15024676799499795,0.08702646195888519
+robust_yaleB_[]_3,./images/robust_yaleB_[]_3,robust,yaleB,[],0.12062615101289134,0.14972112789955389,0.08640142530202866
+robust_yaleB_[]_4,./images/robust_yaleB_[]_4,robust,yaleB,[],0.1210865561694291,0.15723564063334575,0.08719416707754135
+robust_yaleB_['block_noise']_0,./images/robust_yaleB_['block_noise']_0,robust,yaleB,['block_noise'],0.106353591160221,0.10936953252351066,0.10098686069250107
+robust_yaleB_['block_noise']_1,./images/robust_yaleB_['block_noise']_1,robust,yaleB,['block_noise'],0.1141804788213628,0.11460123271811307,0.10151397436857224
+robust_yaleB_['block_noise']_2,./images/robust_yaleB_['block_noise']_2,robust,yaleB,['block_noise'],0.10313075506445672,0.1141040885860783,0.10095763951539993
+robust_yaleB_['block_noise']_3,./images/robust_yaleB_['block_noise']_3,robust,yaleB,['block_noise'],0.11786372007366483,0.12640235901007058,0.10095448046922684
+robust_yaleB_['block_noise']_4,./images/robust_yaleB_['block_noise']_4,robust,yaleB,['block_noise'],0.1141804788213628,0.11287469829707629,0.10088935494422913
+robust_yaleB_['blur_noise']_0,./images/robust_yaleB_['blur_noise']_0,robust,yaleB,['blur_noise'],0.1252302025782689,0.1596929524755163,0.07811962068080902
+robust_yaleB_['blur_noise']_1,./images/robust_yaleB_['blur_noise']_1,robust,yaleB,['blur_noise'],0.11740331491712708,0.12848278499344212,0.07916780561208725
+robust_yaleB_['blur_noise']_2,./images/robust_yaleB_['blur_noise']_2,robust,yaleB,['blur_noise'],0.12753222836095765,0.14043208768204338,0.07810531556606293
+robust_yaleB_['blur_noise']_3,./images/robust_yaleB_['blur_noise']_3,robust,yaleB,['blur_noise'],0.11786372007366483,0.14132895902238823,0.07843198627233505
+robust_yaleB_['blur_noise']_4,./images/robust_yaleB_['blur_noise']_4,robust,yaleB,['blur_noise'],0.11970534069981584,0.1358716941266953,0.07749392837285995
+"robust_yaleB_['block_noise', 'blur_noise']_0","./images/robust_yaleB_['block_noise', 'blur_noise']_0",robust,yaleB,"['block_noise', 'blur_noise']",0.1132596685082873,0.1315505192380531,0.08892873674631119
+"robust_yaleB_['block_noise', 'blur_noise']_1","./images/robust_yaleB_['block_noise', 'blur_noise']_1",robust,yaleB,"['block_noise', 'blur_noise']",0.11095764272559852,0.13065651175862422,0.08940005302429199
+"robust_yaleB_['block_noise', 'blur_noise']_2","./images/robust_yaleB_['block_noise', 'blur_noise']_2",robust,yaleB,"['block_noise', 'blur_noise']",0.10681399631675875,0.10736982031947932,0.08828005939722061
+"robust_yaleB_['block_noise', 'blur_noise']_3","./images/robust_yaleB_['block_noise', 'blur_noise']_3",robust,yaleB,"['block_noise', 'blur_noise']",0.12062615101289134,0.13219322654704224,0.08874229341745377
+"robust_yaleB_['block_noise', 'blur_noise']_4","./images/robust_yaleB_['block_noise', 'blur_noise']_4",robust,yaleB,"['block_noise', 'blur_noise']",0.1072744014732965,0.1227561893756976,0.08953110128641129
+robust_orl_[]_0,./images/robust_orl_[]_0,robust,orl,[],0.6083333333333333,0.7822896425609209,0.15741105377674103
+robust_orl_[]_1,./images/robust_orl_[]_1,robust,orl,[],0.6166666666666667,0.7821168503469293,0.15816384553909302
+robust_orl_[]_2,./images/robust_orl_[]_2,robust,orl,[],0.5777777777777777,0.7610506029626775,0.15773819386959076
+robust_orl_[]_3,./images/robust_orl_[]_3,robust,orl,[],0.55,0.7476538834731623,0.15848003327846527
+robust_orl_[]_4,./images/robust_orl_[]_4,robust,orl,[],0.5777777777777777,0.7645801748439688,0.15862879157066345
+robust_orl_['block_noise']_0,./images/robust_orl_['block_noise']_0,robust,orl,['block_noise'],0.5277777777777778,0.714914914827037,0.1657954752445221
+robust_orl_['block_noise']_1,./images/robust_orl_['block_noise']_1,robust,orl,['block_noise'],0.5277777777777778,0.7014944498255197,0.16802021861076355
+robust_orl_['block_noise']_2,./images/robust_orl_['block_noise']_2,robust,orl,['block_noise'],0.5361111111111111,0.7148906242186486,0.16699892282485962
+robust_orl_['block_noise']_3,./images/robust_orl_['block_noise']_3,robust,orl,['block_noise'],0.5083333333333333,0.6882861401073093,0.16678497195243835
+robust_orl_['block_noise']_4,./images/robust_orl_['block_noise']_4,robust,orl,['block_noise'],0.5222222222222223,0.711935335258791,0.1669512242078781
+robust_orl_['blur_noise']_0,./images/robust_orl_['blur_noise']_0,robust,orl,['blur_noise'],0.5805555555555556,0.7583058459003706,0.13944269716739655
+robust_orl_['blur_noise']_1,./images/robust_orl_['blur_noise']_1,robust,orl,['blur_noise'],0.575,0.7548595368687305,0.1408766508102417
+robust_orl_['blur_noise']_2,./images/robust_orl_['blur_noise']_2,robust,orl,['blur_noise'],0.6027777777777777,0.7806440797555488,0.13715031743049622
+robust_orl_['blur_noise']_3,./images/robust_orl_['blur_noise']_3,robust,orl,['blur_noise'],0.5805555555555556,0.7603394456023296,0.14051641523838043
+robust_orl_['blur_noise']_4,./images/robust_orl_['blur_noise']_4,robust,orl,['blur_noise'],0.5861111111111111,0.7591544318397434,0.13874103128910065
+"robust_orl_['block_noise', 'blur_noise']_0","./images/robust_orl_['block_noise', 'blur_noise']_0",robust,orl,"['block_noise', 'blur_noise']",0.4111111111111111,0.6401134490444078,0.1482793688774109
+"robust_orl_['block_noise', 'blur_noise']_1","./images/robust_orl_['block_noise', 'blur_noise']_1",robust,orl,"['block_noise', 'blur_noise']",0.48333333333333334,0.6885446800178187,0.1469877064228058
+"robust_orl_['block_noise', 'blur_noise']_2","./images/robust_orl_['block_noise', 'blur_noise']_2",robust,orl,"['block_noise', 'blur_noise']",0.4638888888888889,0.6594679418068154,0.15080617368221283
+"robust_orl_['block_noise', 'blur_noise']_3","./images/robust_orl_['block_noise', 'blur_noise']_3",robust,orl,"['block_noise', 'blur_noise']",0.48055555555555557,0.6809667914625168,0.15020789206027985
+"robust_orl_['block_noise', 'blur_noise']_4","./images/robust_orl_['block_noise', 'blur_noise']_4",robust,orl,"['block_noise', 'blur_noise']",0.5055555555555555,0.693909368116563,0.14701023697853088
+sparse_yaleB_[]_0,./images/sparse_yaleB_[]_0,sparse,yaleB,[],0.11187845303867404,0.13818766663507903,0.0995318666100502
+sparse_yaleB_[]_1,./images/sparse_yaleB_[]_1,sparse,yaleB,[],0.11464088397790055,0.14435525186299744,0.09945814311504364
+sparse_yaleB_[]_2,./images/sparse_yaleB_[]_2,sparse,yaleB,[],0.11602209944751381,0.13754230525730973,0.09953441470861435
+sparse_yaleB_[]_3,./images/sparse_yaleB_[]_3,sparse,yaleB,[],0.12154696132596685,0.1465828385235384,0.09953142702579498
+sparse_yaleB_[]_4,./images/sparse_yaleB_[]_4,sparse,yaleB,[],0.1220073664825046,0.12711468308420593,0.10000605136156082
+sparse_yaleB_['block_noise']_0,./images/sparse_yaleB_['block_noise']_0,sparse,yaleB,['block_noise'],0.10128913443830571,0.0917249743049104,0.11171325296163559
+sparse_yaleB_['block_noise']_1,./images/sparse_yaleB_['block_noise']_1,sparse,yaleB,['block_noise'],0.0943830570902394,0.09609139425403093,0.11214910447597504
+sparse_yaleB_['block_noise']_2,./images/sparse_yaleB_['block_noise']_2,sparse,yaleB,['block_noise'],0.09576427255985268,0.10233868736740366,0.1119733527302742
+sparse_yaleB_['block_noise']_3,./images/sparse_yaleB_['block_noise']_3,sparse,yaleB,['block_noise'],0.10451197053406998,0.10320706119653224,0.11133372038602829
+sparse_yaleB_['block_noise']_4,./images/sparse_yaleB_['block_noise']_4,sparse,yaleB,['block_noise'],0.10082872928176796,0.10358654717523386,0.11165714263916016
+sparse_yaleB_['blur_noise']_0,./images/sparse_yaleB_['blur_noise']_0,sparse,yaleB,['blur_noise'],0.11832412523020258,0.12175412910610278,0.08973035961389542
+sparse_yaleB_['blur_noise']_1,./images/sparse_yaleB_['blur_noise']_1,sparse,yaleB,['blur_noise'],0.10865561694290976,0.13616878641261584,0.09028441458940506
+sparse_yaleB_['blur_noise']_2,./images/sparse_yaleB_['blur_noise']_2,sparse,yaleB,['blur_noise'],0.10451197053406998,0.12180882490514507,0.09004700183868408
+sparse_yaleB_['blur_noise']_3,./images/sparse_yaleB_['blur_noise']_3,sparse,yaleB,['blur_noise'],0.11556169429097606,0.12801647277985406,0.09033641964197159
+sparse_yaleB_['blur_noise']_4,./images/sparse_yaleB_['blur_noise']_4,sparse,yaleB,['blur_noise'],0.11049723756906077,0.12803881482777274,0.08983580023050308
+"sparse_yaleB_['block_noise', 'blur_noise']_0","./images/sparse_yaleB_['block_noise', 'blur_noise']_0",sparse,yaleB,"['block_noise', 'blur_noise']",0.10128913443830571,0.10330998373374753,0.10025423765182495
+"sparse_yaleB_['block_noise', 'blur_noise']_1","./images/sparse_yaleB_['block_noise', 'blur_noise']_1",sparse,yaleB,"['block_noise', 'blur_noise']",0.10174953959484347,0.11527988128568176,0.09907235205173492
+"sparse_yaleB_['block_noise', 'blur_noise']_2","./images/sparse_yaleB_['block_noise', 'blur_noise']_2",sparse,yaleB,"['block_noise', 'blur_noise']",0.10128913443830571,0.10360044003001669,0.10009987652301788
+"sparse_yaleB_['block_noise', 'blur_noise']_3","./images/sparse_yaleB_['block_noise', 'blur_noise']_3",sparse,yaleB,"['block_noise', 'blur_noise']",0.09944751381215469,0.11157708684358124,0.10032341629266739
+"sparse_yaleB_['block_noise', 'blur_noise']_4","./images/sparse_yaleB_['block_noise', 'blur_noise']_4",sparse,yaleB,"['block_noise', 'blur_noise']",0.09530386740331492,0.10840784329282944,0.09974142163991928
+sparse_orl_[]_0,./images/sparse_orl_[]_0,sparse,orl,[],0.6888888888888889,0.8371655889668412,0.1141585037112236
+sparse_orl_[]_1,./images/sparse_orl_[]_1,sparse,orl,[],0.6333333333333333,0.8037087744871876,0.11438941210508347
+sparse_orl_[]_2,./images/sparse_orl_[]_2,sparse,orl,[],0.6388888888888888,0.7999499150835271,0.11536051332950592
+sparse_orl_[]_3,./images/sparse_orl_[]_3,sparse,orl,[],0.6527777777777778,0.8138348117672226,0.11493716388940811
+sparse_orl_[]_4,./images/sparse_orl_[]_4,sparse,orl,[],0.6305555555555555,0.7891277457659732,0.11580050736665726
+sparse_orl_['block_noise']_0,./images/sparse_orl_['block_noise']_0,sparse,orl,['block_noise'],0.4888888888888889,0.6895044062295103,0.11900290101766586
+sparse_orl_['block_noise']_1,./images/sparse_orl_['block_noise']_1,sparse,orl,['block_noise'],0.6083333333333333,0.7593522199995045,0.11911717802286148
+sparse_orl_['block_noise']_2,./images/sparse_orl_['block_noise']_2,sparse,orl,['block_noise'],0.5777777777777777,0.7297811318461459,0.11930935829877853
+sparse_orl_['block_noise']_3,./images/sparse_orl_['block_noise']_3,sparse,orl,['block_noise'],0.5888888888888889,0.7589875255726578,0.11862587183713913
+sparse_orl_['block_noise']_4,./images/sparse_orl_['block_noise']_4,sparse,orl,['block_noise'],0.5805555555555556,0.7345664404495201,0.11957865208387375
+sparse_orl_['blur_noise']_0,./images/sparse_orl_['blur_noise']_0,sparse,orl,['blur_noise'],0.6111111111111112,0.7847904913482817,0.09360378980636597
+sparse_orl_['blur_noise']_1,./images/sparse_orl_['blur_noise']_1,sparse,orl,['blur_noise'],0.6138888888888889,0.7923661009212171,0.09389044344425201
+sparse_orl_['blur_noise']_2,./images/sparse_orl_['blur_noise']_2,sparse,orl,['blur_noise'],0.6416666666666667,0.809765814691985,0.09361493587493896
+sparse_orl_['blur_noise']_3,./images/sparse_orl_['blur_noise']_3,sparse,orl,['blur_noise'],0.6527777777777778,0.8129234111311201,0.09528211504220963
+sparse_orl_['blur_noise']_4,./images/sparse_orl_['blur_noise']_4,sparse,orl,['blur_noise'],0.625,0.7964680564376678,0.0945657268166542
+"sparse_orl_['block_noise', 'blur_noise']_0","./images/sparse_orl_['block_noise', 'blur_noise']_0",sparse,orl,"['block_noise', 'blur_noise']",0.5222222222222223,0.7158649076140062,0.09789609909057617
+"sparse_orl_['block_noise', 'blur_noise']_1","./images/sparse_orl_['block_noise', 'blur_noise']_1",sparse,orl,"['block_noise', 'blur_noise']",0.5833333333333334,0.7442656176487525,0.09805239737033844
+"sparse_orl_['block_noise', 'blur_noise']_2","./images/sparse_orl_['block_noise', 'blur_noise']_2",sparse,orl,"['block_noise', 'blur_noise']",0.5,0.6979041286572616,0.09907665848731995
+"sparse_orl_['block_noise', 'blur_noise']_3","./images/sparse_orl_['block_noise', 'blur_noise']_3",sparse,orl,"['block_noise', 'blur_noise']",0.5055555555555555,0.693713218273857,0.09909231215715408
+"sparse_orl_['block_noise', 'blur_noise']_4","./images/sparse_orl_['block_noise', 'blur_noise']_4",sparse,orl,"['block_noise', 'blur_noise']",0.5305555555555556,0.7196786165011897,0.09685369580984116
+multiplicative_update_yaleB_[]_0,./images/multiplicative_update_yaleB_[]_0,multiplicative_update,yaleB,[],0.11832412523020258,0.13430657311142805,0.09786272048950195
+multiplicative_update_yaleB_[]_1,./images/multiplicative_update_yaleB_[]_1,multiplicative_update,yaleB,[],0.12062615101289134,0.1429426137439517,0.09764926880598068
+multiplicative_update_yaleB_[]_2,./images/multiplicative_update_yaleB_[]_2,multiplicative_update,yaleB,[],0.11832412523020258,0.1450968923909814,0.09731242805719376
+multiplicative_update_yaleB_[]_3,./images/multiplicative_update_yaleB_[]_3,multiplicative_update,yaleB,[],0.12384898710865562,0.12886262688192676,0.09803415834903717
+multiplicative_update_yaleB_[]_4,./images/multiplicative_update_yaleB_[]_4,multiplicative_update,yaleB,[],0.12338858195211787,0.14320706158430674,0.09770973026752472
+multiplicative_update_yaleB_['block_noise']_0,./images/multiplicative_update_yaleB_['block_noise']_0,multiplicative_update,yaleB,['block_noise'],0.10359116022099447,0.10365616682933662,0.11028856784105301
+multiplicative_update_yaleB_['block_noise']_1,./images/multiplicative_update_yaleB_['block_noise']_1,multiplicative_update,yaleB,['block_noise'],0.10174953959484347,0.11133741214268193,0.11060715466737747
+multiplicative_update_yaleB_['block_noise']_2,./images/multiplicative_update_yaleB_['block_noise']_2,multiplicative_update,yaleB,['block_noise'],0.09760589318600368,0.0974198772544127,0.10996200144290924
+multiplicative_update_yaleB_['block_noise']_3,./images/multiplicative_update_yaleB_['block_noise']_3,multiplicative_update,yaleB,['block_noise'],0.10773480662983426,0.11961483451192383,0.1101263016462326
+multiplicative_update_yaleB_['block_noise']_4,./images/multiplicative_update_yaleB_['block_noise']_4,multiplicative_update,yaleB,['block_noise'],0.10543278084714548,0.10177196152733356,0.11092803627252579
+multiplicative_update_yaleB_['blur_noise']_0,./images/multiplicative_update_yaleB_['blur_noise']_0,multiplicative_update,yaleB,['blur_noise'],0.12292817679558012,0.14057336343079765,0.08810466527938843
+multiplicative_update_yaleB_['blur_noise']_1,./images/multiplicative_update_yaleB_['blur_noise']_1,multiplicative_update,yaleB,['blur_noise'],0.12569060773480664,0.13486435016425266,0.08865401893854141
+multiplicative_update_yaleB_['blur_noise']_2,./images/multiplicative_update_yaleB_['blur_noise']_2,multiplicative_update,yaleB,['blur_noise'],0.12753222836095765,0.13613242831725536,0.0878327339887619
+multiplicative_update_yaleB_['blur_noise']_3,./images/multiplicative_update_yaleB_['blur_noise']_3,multiplicative_update,yaleB,['blur_noise'],0.10957642725598526,0.14853165090316506,0.08806519210338593
+multiplicative_update_yaleB_['blur_noise']_4,./images/multiplicative_update_yaleB_['blur_noise']_4,multiplicative_update,yaleB,['blur_noise'],0.12154696132596685,0.12382562932837272,0.08821354806423187
+"multiplicative_update_yaleB_['block_noise', 'blur_noise']_0","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_0",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.09990791896869244,0.09711539053089174,0.09754002839326859
+"multiplicative_update_yaleB_['block_noise', 'blur_noise']_1","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_1",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.11049723756906077,0.11276262691254621,0.09885130077600479
+"multiplicative_update_yaleB_['block_noise', 'blur_noise']_2","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_2",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.10128913443830571,0.10813024473101258,0.09776418656110764
+"multiplicative_update_yaleB_['block_noise', 'blur_noise']_3","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_3",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.10451197053406998,0.11765435851495029,0.09791756421327591
+"multiplicative_update_yaleB_['block_noise', 'blur_noise']_4","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_4",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.09990791896869244,0.10688460238871758,0.09693756699562073
+multiplicative_update_orl_[]_0,./images/multiplicative_update_orl_[]_0,multiplicative_update,orl,[],0.6694444444444444,0.8302523815434406,0.10923928767442703
+multiplicative_update_orl_[]_1,./images/multiplicative_update_orl_[]_1,multiplicative_update,orl,[],0.6861111111111111,0.8357859947782997,0.10930515825748444
+multiplicative_update_orl_[]_2,./images/multiplicative_update_orl_[]_2,multiplicative_update,orl,[],0.6583333333333333,0.8205583627825481,0.10935687273740768
+multiplicative_update_orl_[]_3,./images/multiplicative_update_orl_[]_3,multiplicative_update,orl,[],0.6,0.7948448468541245,0.10882072150707245
+multiplicative_update_orl_[]_4,./images/multiplicative_update_orl_[]_4,multiplicative_update,orl,[],0.6555555555555556,0.8214671828490827,0.10955996066331863
+multiplicative_update_orl_['block_noise']_0,./images/multiplicative_update_orl_['block_noise']_0,multiplicative_update,orl,['block_noise'],0.5472222222222223,0.7265855891684394,0.11396516859531403
+multiplicative_update_orl_['block_noise']_1,./images/multiplicative_update_orl_['block_noise']_1,multiplicative_update,orl,['block_noise'],0.5888888888888889,0.7532670700534819,0.11437828838825226
+multiplicative_update_orl_['block_noise']_2,./images/multiplicative_update_orl_['block_noise']_2,multiplicative_update,orl,['block_noise'],0.5416666666666666,0.7151286454736308,0.11468864232301712
+multiplicative_update_orl_['block_noise']_3,./images/multiplicative_update_orl_['block_noise']_3,multiplicative_update,orl,['block_noise'],0.6,0.7527404846991633,0.11407308280467987
+multiplicative_update_orl_['block_noise']_4,./images/multiplicative_update_orl_['block_noise']_4,multiplicative_update,orl,['block_noise'],0.5972222222222222,0.7830239287946035,0.11430350691080093
+multiplicative_update_orl_['blur_noise']_0,./images/multiplicative_update_orl_['blur_noise']_0,multiplicative_update,orl,['blur_noise'],0.6361111111111111,0.8116546437494612,0.08736273646354675
+multiplicative_update_orl_['blur_noise']_1,./images/multiplicative_update_orl_['blur_noise']_1,multiplicative_update,orl,['blur_noise'],0.6166666666666667,0.8034311027614283,0.08684008568525314
+multiplicative_update_orl_['blur_noise']_2,./images/multiplicative_update_orl_['blur_noise']_2,multiplicative_update,orl,['blur_noise'],0.6611111111111111,0.8225645954801777,0.088270403444767
+multiplicative_update_orl_['blur_noise']_3,./images/multiplicative_update_orl_['blur_noise']_3,multiplicative_update,orl,['blur_noise'],0.6583333333333333,0.8179155703084027,0.0883752778172493
+multiplicative_update_orl_['blur_noise']_4,./images/multiplicative_update_orl_['blur_noise']_4,multiplicative_update,orl,['blur_noise'],0.6305555555555555,0.8007463868935288,0.08624906092882156
+"multiplicative_update_orl_['block_noise', 'blur_noise']_0","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_0",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.525,0.7194871984566688,0.08837655186653137
+"multiplicative_update_orl_['block_noise', 'blur_noise']_1","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_1",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5388888888888889,0.7107158279939605,0.09238247573375702
+"multiplicative_update_orl_['block_noise', 'blur_noise']_2","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_2",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5416666666666666,0.7162927631465237,0.09239109605550766
+"multiplicative_update_orl_['block_noise', 'blur_noise']_3","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_3",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5527777777777778,0.72291953199142,0.09043024480342865
+"multiplicative_update_orl_['block_noise', 'blur_noise']_4","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_4",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5583333333333333,0.720847875279372,0.09124090522527695
