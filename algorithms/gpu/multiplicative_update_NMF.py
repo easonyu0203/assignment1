@@ -22,5 +22,5 @@ class MultiplicativeUpdateNMF(NMFBase):
         Extends the base metrics function to include Cost Function
         """
         base_metrics = super().metrics()
-        base_metrics["Cost Function"] = torch.sum(torch.sqrt((self.V - self.W @ self.H) ** 2)) / 2
+        base_metrics["Cost Function"] = (torch.sum(torch.sqrt((self.V - self.W @ self.H) ** 2)) / 2).item()
         return base_metrics

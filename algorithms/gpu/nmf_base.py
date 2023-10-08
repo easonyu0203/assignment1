@@ -75,19 +75,14 @@ class NMFBase:
     @staticmethod
     def _assign_cluster_label(X: np.array, Y: np.array) -> np.array:
         n_clusters = len(set(Y))
-        kmeans = faiss.Kmeans(X.shape[1], n_clusters, niter=20, verbose=True)
+        kmeans = faiss.Kmeans(X.shape[1], n_clusters, niter=20, verbose=False)
         kmeans.train(X.astype(np.float32))
         _, labels = kmeans.index.search(X.astype(np.float32), 1)
         Y_pred = np.zeros(Y.shape)
 
-        def get_most_common_label(i):
+        for i in set(labels.squeeze()):
             ind = labels.squeeze() == i
-            return Counter(Y[ind]).most_common(1)[0][0]
-
-        with ProcessPoolExecutor() as executor:
-            for i, label in enumerate(executor.map(get_most_common_label, set(labels.squeeze()))):
-                Y_pred[labels.squeeze() == i] = label
-
+            Y_pred[ind] = Counter(Y[ind]).most_common(1)[0][0]  # assign label.
         return Y_pred
 
     def evaluate(self, Y: np.array) -> dict:
