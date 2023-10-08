@@ -1,3 +1,7 @@
+from concurrent.futures import ProcessPoolExecutor
+
+import faiss
+import numpy as np
 import torch
 import matplotlib.pyplot as plt
 from tqdm import tqdm
@@ -10,13 +14,13 @@ from utils.early_stopping import EarlyStopping
 
 
 class NMFBase:
-    def __init__(self, V: torch.Tensor, num_features: int, max_iters: int = 1000, epsilon: float = 1e-10):
-        self.V = V.cuda()
+    def __init__(self, V: np.array, num_features: int, max_iters: int = 1000, epsilon: float = 1e-10):
+        self.V = torch.tensor(V, dtype=torch.float32, device='mps')
         self.num_features = num_features
         self.max_iters = max_iters
         self.epsilon = epsilon
-        self.W = torch.abs(torch.randn(V.shape[0], num_features, device='cuda'))
-        self.H = torch.abs(torch.randn(num_features, V.shape[1], device='cuda'))
+        self.W = torch.abs(torch.randn(V.shape[0], num_features, device='mps'))
+        self.H = torch.abs(torch.randn(num_features, V.shape[1], device='mps'))
 
     def update_step(self) -> None:
         raise NotImplementedError
@@ -69,21 +73,30 @@ class NMFBase:
         plt.show()
 
     @staticmethod
-    def _assign_cluster_label(X, Y):
-        kmeans = KMeans(n_clusters=len(set(Y)), n_init='auto').fit(X)
-        Y_pred = torch.zeros(Y.shape, device='cuda')
-        for i in set(kmeans.labels_):
-            ind = kmeans.labels_ == i
-            Y_pred[ind] = Counter(Y[ind]).most_common(1)[0][0]  # assign label.
-        return Y_pred.cpu().numpy()
+    def _assign_cluster_label(X: np.array, Y: np.array) -> np.array:
+        n_clusters = len(set(Y))
+        kmeans = faiss.Kmeans(X.shape[1], n_clusters, niter=20, verbose=True)
+        kmeans.train(X.astype(np.float32))
+        _, labels = kmeans.index.search(X.astype(np.float32), 1)
+        Y_pred = np.zeros(Y.shape)
 
-    def evaluate(self, Y: torch.Tensor) -> dict:
+        def get_most_common_label(i):
+            ind = labels.squeeze() == i
+            return Counter(Y[ind]).most_common(1)[0][0]
+
+        with ProcessPoolExecutor() as executor:
+            for i, label in enumerate(executor.map(get_most_common_label, set(labels.squeeze()))):
+                Y_pred[labels.squeeze() == i] = label
+
+        return Y_pred
+
+    def evaluate(self, Y: np.array) -> dict:
         R = self.W @ self.H
-        Y_pred = NMFBase._assign_cluster_label(R.T.cpu().numpy(), Y.cpu().numpy())
-        acc = accuracy_score(Y.cpu().numpy(), Y_pred)
-        nmi = normalized_mutual_info_score(Y.cpu().numpy(), Y_pred)
+        Y_pred = NMFBase._assign_cluster_label(R.T.cpu().numpy(), Y)
+        acc = accuracy_score(Y, Y_pred)
+        nmi = normalized_mutual_info_score(Y, Y_pred)
         rmse = torch.sqrt(torch.mean((R - self.V) ** 2)).item()
         return {'acc': acc, "nmi": nmi, "rmse": rmse}
 
-    def get_reconstruction(self) -> torch.Tensor:
-        return self.W @ self.H
+    def get_reconstruction(self) -> np.ndarray:
+        return self.W.cpu().numpy() @ self.H.cpu().numpy()
