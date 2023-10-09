@@ -1,121 +1,351 @@
-name,reconstructed_images_path,nmf,dataset,noises,acc,nmi,rmse
-robust_yaleB_[]_0,./images/robust_yaleB_[]_0,robust,yaleB,[],0.12753222836095765,0.15233071596934145,0.08700354397296906
-robust_yaleB_[]_1,./images/robust_yaleB_[]_1,robust,yaleB,[],0.12661141804788215,0.15460207676530285,0.08619870990514755
-robust_yaleB_[]_2,./images/robust_yaleB_[]_2,robust,yaleB,[],0.11924493554327809,0.15024676799499795,0.08702646195888519
-robust_yaleB_[]_3,./images/robust_yaleB_[]_3,robust,yaleB,[],0.12062615101289134,0.14972112789955389,0.08640142530202866
-robust_yaleB_[]_4,./images/robust_yaleB_[]_4,robust,yaleB,[],0.1210865561694291,0.15723564063334575,0.08719416707754135
-robust_yaleB_['block_noise']_0,./images/robust_yaleB_['block_noise']_0,robust,yaleB,['block_noise'],0.106353591160221,0.10936953252351066,0.10098686069250107
-robust_yaleB_['block_noise']_1,./images/robust_yaleB_['block_noise']_1,robust,yaleB,['block_noise'],0.1141804788213628,0.11460123271811307,0.10151397436857224
-robust_yaleB_['block_noise']_2,./images/robust_yaleB_['block_noise']_2,robust,yaleB,['block_noise'],0.10313075506445672,0.1141040885860783,0.10095763951539993
-robust_yaleB_['block_noise']_3,./images/robust_yaleB_['block_noise']_3,robust,yaleB,['block_noise'],0.11786372007366483,0.12640235901007058,0.10095448046922684
-robust_yaleB_['block_noise']_4,./images/robust_yaleB_['block_noise']_4,robust,yaleB,['block_noise'],0.1141804788213628,0.11287469829707629,0.10088935494422913
-robust_yaleB_['blur_noise']_0,./images/robust_yaleB_['blur_noise']_0,robust,yaleB,['blur_noise'],0.1252302025782689,0.1596929524755163,0.07811962068080902
-robust_yaleB_['blur_noise']_1,./images/robust_yaleB_['blur_noise']_1,robust,yaleB,['blur_noise'],0.11740331491712708,0.12848278499344212,0.07916780561208725
-robust_yaleB_['blur_noise']_2,./images/robust_yaleB_['blur_noise']_2,robust,yaleB,['blur_noise'],0.12753222836095765,0.14043208768204338,0.07810531556606293
-robust_yaleB_['blur_noise']_3,./images/robust_yaleB_['blur_noise']_3,robust,yaleB,['blur_noise'],0.11786372007366483,0.14132895902238823,0.07843198627233505
-robust_yaleB_['blur_noise']_4,./images/robust_yaleB_['blur_noise']_4,robust,yaleB,['blur_noise'],0.11970534069981584,0.1358716941266953,0.07749392837285995
-"robust_yaleB_['block_noise', 'blur_noise']_0","./images/robust_yaleB_['block_noise', 'blur_noise']_0",robust,yaleB,"['block_noise', 'blur_noise']",0.1132596685082873,0.1315505192380531,0.08892873674631119
-"robust_yaleB_['block_noise', 'blur_noise']_1","./images/robust_yaleB_['block_noise', 'blur_noise']_1",robust,yaleB,"['block_noise', 'blur_noise']",0.11095764272559852,0.13065651175862422,0.08940005302429199
-"robust_yaleB_['block_noise', 'blur_noise']_2","./images/robust_yaleB_['block_noise', 'blur_noise']_2",robust,yaleB,"['block_noise', 'blur_noise']",0.10681399631675875,0.10736982031947932,0.08828005939722061
-"robust_yaleB_['block_noise', 'blur_noise']_3","./images/robust_yaleB_['block_noise', 'blur_noise']_3",robust,yaleB,"['block_noise', 'blur_noise']",0.12062615101289134,0.13219322654704224,0.08874229341745377
-"robust_yaleB_['block_noise', 'blur_noise']_4","./images/robust_yaleB_['block_noise', 'blur_noise']_4",robust,yaleB,"['block_noise', 'blur_noise']",0.1072744014732965,0.1227561893756976,0.08953110128641129
-robust_orl_[]_0,./images/robust_orl_[]_0,robust,orl,[],0.6083333333333333,0.7822896425609209,0.15741105377674103
-robust_orl_[]_1,./images/robust_orl_[]_1,robust,orl,[],0.6166666666666667,0.7821168503469293,0.15816384553909302
-robust_orl_[]_2,./images/robust_orl_[]_2,robust,orl,[],0.5777777777777777,0.7610506029626775,0.15773819386959076
-robust_orl_[]_3,./images/robust_orl_[]_3,robust,orl,[],0.55,0.7476538834731623,0.15848003327846527
-robust_orl_[]_4,./images/robust_orl_[]_4,robust,orl,[],0.5777777777777777,0.7645801748439688,0.15862879157066345
-robust_orl_['block_noise']_0,./images/robust_orl_['block_noise']_0,robust,orl,['block_noise'],0.5277777777777778,0.714914914827037,0.1657954752445221
-robust_orl_['block_noise']_1,./images/robust_orl_['block_noise']_1,robust,orl,['block_noise'],0.5277777777777778,0.7014944498255197,0.16802021861076355
-robust_orl_['block_noise']_2,./images/robust_orl_['block_noise']_2,robust,orl,['block_noise'],0.5361111111111111,0.7148906242186486,0.16699892282485962
-robust_orl_['block_noise']_3,./images/robust_orl_['block_noise']_3,robust,orl,['block_noise'],0.5083333333333333,0.6882861401073093,0.16678497195243835
-robust_orl_['block_noise']_4,./images/robust_orl_['block_noise']_4,robust,orl,['block_noise'],0.5222222222222223,0.711935335258791,0.1669512242078781
-robust_orl_['blur_noise']_0,./images/robust_orl_['blur_noise']_0,robust,orl,['blur_noise'],0.5805555555555556,0.7583058459003706,0.13944269716739655
-robust_orl_['blur_noise']_1,./images/robust_orl_['blur_noise']_1,robust,orl,['blur_noise'],0.575,0.7548595368687305,0.1408766508102417
-robust_orl_['blur_noise']_2,./images/robust_orl_['blur_noise']_2,robust,orl,['blur_noise'],0.6027777777777777,0.7806440797555488,0.13715031743049622
-robust_orl_['blur_noise']_3,./images/robust_orl_['blur_noise']_3,robust,orl,['blur_noise'],0.5805555555555556,0.7603394456023296,0.14051641523838043
-robust_orl_['blur_noise']_4,./images/robust_orl_['blur_noise']_4,robust,orl,['blur_noise'],0.5861111111111111,0.7591544318397434,0.13874103128910065
-"robust_orl_['block_noise', 'blur_noise']_0","./images/robust_orl_['block_noise', 'blur_noise']_0",robust,orl,"['block_noise', 'blur_noise']",0.4111111111111111,0.6401134490444078,0.1482793688774109
-"robust_orl_['block_noise', 'blur_noise']_1","./images/robust_orl_['block_noise', 'blur_noise']_1",robust,orl,"['block_noise', 'blur_noise']",0.48333333333333334,0.6885446800178187,0.1469877064228058
-"robust_orl_['block_noise', 'blur_noise']_2","./images/robust_orl_['block_noise', 'blur_noise']_2",robust,orl,"['block_noise', 'blur_noise']",0.4638888888888889,0.6594679418068154,0.15080617368221283
-"robust_orl_['block_noise', 'blur_noise']_3","./images/robust_orl_['block_noise', 'blur_noise']_3",robust,orl,"['block_noise', 'blur_noise']",0.48055555555555557,0.6809667914625168,0.15020789206027985
-"robust_orl_['block_noise', 'blur_noise']_4","./images/robust_orl_['block_noise', 'blur_noise']_4",robust,orl,"['block_noise', 'blur_noise']",0.5055555555555555,0.693909368116563,0.14701023697853088
-sparse_yaleB_[]_0,./images/sparse_yaleB_[]_0,sparse,yaleB,[],0.11187845303867404,0.13818766663507903,0.0995318666100502
-sparse_yaleB_[]_1,./images/sparse_yaleB_[]_1,sparse,yaleB,[],0.11464088397790055,0.14435525186299744,0.09945814311504364
-sparse_yaleB_[]_2,./images/sparse_yaleB_[]_2,sparse,yaleB,[],0.11602209944751381,0.13754230525730973,0.09953441470861435
-sparse_yaleB_[]_3,./images/sparse_yaleB_[]_3,sparse,yaleB,[],0.12154696132596685,0.1465828385235384,0.09953142702579498
-sparse_yaleB_[]_4,./images/sparse_yaleB_[]_4,sparse,yaleB,[],0.1220073664825046,0.12711468308420593,0.10000605136156082
-sparse_yaleB_['block_noise']_0,./images/sparse_yaleB_['block_noise']_0,sparse,yaleB,['block_noise'],0.10128913443830571,0.0917249743049104,0.11171325296163559
-sparse_yaleB_['block_noise']_1,./images/sparse_yaleB_['block_noise']_1,sparse,yaleB,['block_noise'],0.0943830570902394,0.09609139425403093,0.11214910447597504
-sparse_yaleB_['block_noise']_2,./images/sparse_yaleB_['block_noise']_2,sparse,yaleB,['block_noise'],0.09576427255985268,0.10233868736740366,0.1119733527302742
-sparse_yaleB_['block_noise']_3,./images/sparse_yaleB_['block_noise']_3,sparse,yaleB,['block_noise'],0.10451197053406998,0.10320706119653224,0.11133372038602829
-sparse_yaleB_['block_noise']_4,./images/sparse_yaleB_['block_noise']_4,sparse,yaleB,['block_noise'],0.10082872928176796,0.10358654717523386,0.11165714263916016
-sparse_yaleB_['blur_noise']_0,./images/sparse_yaleB_['blur_noise']_0,sparse,yaleB,['blur_noise'],0.11832412523020258,0.12175412910610278,0.08973035961389542
-sparse_yaleB_['blur_noise']_1,./images/sparse_yaleB_['blur_noise']_1,sparse,yaleB,['blur_noise'],0.10865561694290976,0.13616878641261584,0.09028441458940506
-sparse_yaleB_['blur_noise']_2,./images/sparse_yaleB_['blur_noise']_2,sparse,yaleB,['blur_noise'],0.10451197053406998,0.12180882490514507,0.09004700183868408
-sparse_yaleB_['blur_noise']_3,./images/sparse_yaleB_['blur_noise']_3,sparse,yaleB,['blur_noise'],0.11556169429097606,0.12801647277985406,0.09033641964197159
-sparse_yaleB_['blur_noise']_4,./images/sparse_yaleB_['blur_noise']_4,sparse,yaleB,['blur_noise'],0.11049723756906077,0.12803881482777274,0.08983580023050308
-"sparse_yaleB_['block_noise', 'blur_noise']_0","./images/sparse_yaleB_['block_noise', 'blur_noise']_0",sparse,yaleB,"['block_noise', 'blur_noise']",0.10128913443830571,0.10330998373374753,0.10025423765182495
-"sparse_yaleB_['block_noise', 'blur_noise']_1","./images/sparse_yaleB_['block_noise', 'blur_noise']_1",sparse,yaleB,"['block_noise', 'blur_noise']",0.10174953959484347,0.11527988128568176,0.09907235205173492
-"sparse_yaleB_['block_noise', 'blur_noise']_2","./images/sparse_yaleB_['block_noise', 'blur_noise']_2",sparse,yaleB,"['block_noise', 'blur_noise']",0.10128913443830571,0.10360044003001669,0.10009987652301788
-"sparse_yaleB_['block_noise', 'blur_noise']_3","./images/sparse_yaleB_['block_noise', 'blur_noise']_3",sparse,yaleB,"['block_noise', 'blur_noise']",0.09944751381215469,0.11157708684358124,0.10032341629266739
-"sparse_yaleB_['block_noise', 'blur_noise']_4","./images/sparse_yaleB_['block_noise', 'blur_noise']_4",sparse,yaleB,"['block_noise', 'blur_noise']",0.09530386740331492,0.10840784329282944,0.09974142163991928
-sparse_orl_[]_0,./images/sparse_orl_[]_0,sparse,orl,[],0.6888888888888889,0.8371655889668412,0.1141585037112236
-sparse_orl_[]_1,./images/sparse_orl_[]_1,sparse,orl,[],0.6333333333333333,0.8037087744871876,0.11438941210508347
-sparse_orl_[]_2,./images/sparse_orl_[]_2,sparse,orl,[],0.6388888888888888,0.7999499150835271,0.11536051332950592
-sparse_orl_[]_3,./images/sparse_orl_[]_3,sparse,orl,[],0.6527777777777778,0.8138348117672226,0.11493716388940811
-sparse_orl_[]_4,./images/sparse_orl_[]_4,sparse,orl,[],0.6305555555555555,0.7891277457659732,0.11580050736665726
-sparse_orl_['block_noise']_0,./images/sparse_orl_['block_noise']_0,sparse,orl,['block_noise'],0.4888888888888889,0.6895044062295103,0.11900290101766586
-sparse_orl_['block_noise']_1,./images/sparse_orl_['block_noise']_1,sparse,orl,['block_noise'],0.6083333333333333,0.7593522199995045,0.11911717802286148
-sparse_orl_['block_noise']_2,./images/sparse_orl_['block_noise']_2,sparse,orl,['block_noise'],0.5777777777777777,0.7297811318461459,0.11930935829877853
-sparse_orl_['block_noise']_3,./images/sparse_orl_['block_noise']_3,sparse,orl,['block_noise'],0.5888888888888889,0.7589875255726578,0.11862587183713913
-sparse_orl_['block_noise']_4,./images/sparse_orl_['block_noise']_4,sparse,orl,['block_noise'],0.5805555555555556,0.7345664404495201,0.11957865208387375
-sparse_orl_['blur_noise']_0,./images/sparse_orl_['blur_noise']_0,sparse,orl,['blur_noise'],0.6111111111111112,0.7847904913482817,0.09360378980636597
-sparse_orl_['blur_noise']_1,./images/sparse_orl_['blur_noise']_1,sparse,orl,['blur_noise'],0.6138888888888889,0.7923661009212171,0.09389044344425201
-sparse_orl_['blur_noise']_2,./images/sparse_orl_['blur_noise']_2,sparse,orl,['blur_noise'],0.6416666666666667,0.809765814691985,0.09361493587493896
-sparse_orl_['blur_noise']_3,./images/sparse_orl_['blur_noise']_3,sparse,orl,['blur_noise'],0.6527777777777778,0.8129234111311201,0.09528211504220963
-sparse_orl_['blur_noise']_4,./images/sparse_orl_['blur_noise']_4,sparse,orl,['blur_noise'],0.625,0.7964680564376678,0.0945657268166542
-"sparse_orl_['block_noise', 'blur_noise']_0","./images/sparse_orl_['block_noise', 'blur_noise']_0",sparse,orl,"['block_noise', 'blur_noise']",0.5222222222222223,0.7158649076140062,0.09789609909057617
-"sparse_orl_['block_noise', 'blur_noise']_1","./images/sparse_orl_['block_noise', 'blur_noise']_1",sparse,orl,"['block_noise', 'blur_noise']",0.5833333333333334,0.7442656176487525,0.09805239737033844
-"sparse_orl_['block_noise', 'blur_noise']_2","./images/sparse_orl_['block_noise', 'blur_noise']_2",sparse,orl,"['block_noise', 'blur_noise']",0.5,0.6979041286572616,0.09907665848731995
-"sparse_orl_['block_noise', 'blur_noise']_3","./images/sparse_orl_['block_noise', 'blur_noise']_3",sparse,orl,"['block_noise', 'blur_noise']",0.5055555555555555,0.693713218273857,0.09909231215715408
-"sparse_orl_['block_noise', 'blur_noise']_4","./images/sparse_orl_['block_noise', 'blur_noise']_4",sparse,orl,"['block_noise', 'blur_noise']",0.5305555555555556,0.7196786165011897,0.09685369580984116
-multiplicative_update_yaleB_[]_0,./images/multiplicative_update_yaleB_[]_0,multiplicative_update,yaleB,[],0.11832412523020258,0.13430657311142805,0.09786272048950195
-multiplicative_update_yaleB_[]_1,./images/multiplicative_update_yaleB_[]_1,multiplicative_update,yaleB,[],0.12062615101289134,0.1429426137439517,0.09764926880598068
-multiplicative_update_yaleB_[]_2,./images/multiplicative_update_yaleB_[]_2,multiplicative_update,yaleB,[],0.11832412523020258,0.1450968923909814,0.09731242805719376
-multiplicative_update_yaleB_[]_3,./images/multiplicative_update_yaleB_[]_3,multiplicative_update,yaleB,[],0.12384898710865562,0.12886262688192676,0.09803415834903717
-multiplicative_update_yaleB_[]_4,./images/multiplicative_update_yaleB_[]_4,multiplicative_update,yaleB,[],0.12338858195211787,0.14320706158430674,0.09770973026752472
-multiplicative_update_yaleB_['block_noise']_0,./images/multiplicative_update_yaleB_['block_noise']_0,multiplicative_update,yaleB,['block_noise'],0.10359116022099447,0.10365616682933662,0.11028856784105301
-multiplicative_update_yaleB_['block_noise']_1,./images/multiplicative_update_yaleB_['block_noise']_1,multiplicative_update,yaleB,['block_noise'],0.10174953959484347,0.11133741214268193,0.11060715466737747
-multiplicative_update_yaleB_['block_noise']_2,./images/multiplicative_update_yaleB_['block_noise']_2,multiplicative_update,yaleB,['block_noise'],0.09760589318600368,0.0974198772544127,0.10996200144290924
-multiplicative_update_yaleB_['block_noise']_3,./images/multiplicative_update_yaleB_['block_noise']_3,multiplicative_update,yaleB,['block_noise'],0.10773480662983426,0.11961483451192383,0.1101263016462326
-multiplicative_update_yaleB_['block_noise']_4,./images/multiplicative_update_yaleB_['block_noise']_4,multiplicative_update,yaleB,['block_noise'],0.10543278084714548,0.10177196152733356,0.11092803627252579
-multiplicative_update_yaleB_['blur_noise']_0,./images/multiplicative_update_yaleB_['blur_noise']_0,multiplicative_update,yaleB,['blur_noise'],0.12292817679558012,0.14057336343079765,0.08810466527938843
-multiplicative_update_yaleB_['blur_noise']_1,./images/multiplicative_update_yaleB_['blur_noise']_1,multiplicative_update,yaleB,['blur_noise'],0.12569060773480664,0.13486435016425266,0.08865401893854141
-multiplicative_update_yaleB_['blur_noise']_2,./images/multiplicative_update_yaleB_['blur_noise']_2,multiplicative_update,yaleB,['blur_noise'],0.12753222836095765,0.13613242831725536,0.0878327339887619
-multiplicative_update_yaleB_['blur_noise']_3,./images/multiplicative_update_yaleB_['blur_noise']_3,multiplicative_update,yaleB,['blur_noise'],0.10957642725598526,0.14853165090316506,0.08806519210338593
-multiplicative_update_yaleB_['blur_noise']_4,./images/multiplicative_update_yaleB_['blur_noise']_4,multiplicative_update,yaleB,['blur_noise'],0.12154696132596685,0.12382562932837272,0.08821354806423187
-"multiplicative_update_yaleB_['block_noise', 'blur_noise']_0","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_0",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.09990791896869244,0.09711539053089174,0.09754002839326859
-"multiplicative_update_yaleB_['block_noise', 'blur_noise']_1","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_1",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.11049723756906077,0.11276262691254621,0.09885130077600479
-"multiplicative_update_yaleB_['block_noise', 'blur_noise']_2","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_2",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.10128913443830571,0.10813024473101258,0.09776418656110764
-"multiplicative_update_yaleB_['block_noise', 'blur_noise']_3","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_3",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.10451197053406998,0.11765435851495029,0.09791756421327591
-"multiplicative_update_yaleB_['block_noise', 'blur_noise']_4","./images/multiplicative_update_yaleB_['block_noise', 'blur_noise']_4",multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.09990791896869244,0.10688460238871758,0.09693756699562073
-multiplicative_update_orl_[]_0,./images/multiplicative_update_orl_[]_0,multiplicative_update,orl,[],0.6694444444444444,0.8302523815434406,0.10923928767442703
-multiplicative_update_orl_[]_1,./images/multiplicative_update_orl_[]_1,multiplicative_update,orl,[],0.6861111111111111,0.8357859947782997,0.10930515825748444
-multiplicative_update_orl_[]_2,./images/multiplicative_update_orl_[]_2,multiplicative_update,orl,[],0.6583333333333333,0.8205583627825481,0.10935687273740768
-multiplicative_update_orl_[]_3,./images/multiplicative_update_orl_[]_3,multiplicative_update,orl,[],0.6,0.7948448468541245,0.10882072150707245
-multiplicative_update_orl_[]_4,./images/multiplicative_update_orl_[]_4,multiplicative_update,orl,[],0.6555555555555556,0.8214671828490827,0.10955996066331863
-multiplicative_update_orl_['block_noise']_0,./images/multiplicative_update_orl_['block_noise']_0,multiplicative_update,orl,['block_noise'],0.5472222222222223,0.7265855891684394,0.11396516859531403
-multiplicative_update_orl_['block_noise']_1,./images/multiplicative_update_orl_['block_noise']_1,multiplicative_update,orl,['block_noise'],0.5888888888888889,0.7532670700534819,0.11437828838825226
-multiplicative_update_orl_['block_noise']_2,./images/multiplicative_update_orl_['block_noise']_2,multiplicative_update,orl,['block_noise'],0.5416666666666666,0.7151286454736308,0.11468864232301712
-multiplicative_update_orl_['block_noise']_3,./images/multiplicative_update_orl_['block_noise']_3,multiplicative_update,orl,['block_noise'],0.6,0.7527404846991633,0.11407308280467987
-multiplicative_update_orl_['block_noise']_4,./images/multiplicative_update_orl_['block_noise']_4,multiplicative_update,orl,['block_noise'],0.5972222222222222,0.7830239287946035,0.11430350691080093
-multiplicative_update_orl_['blur_noise']_0,./images/multiplicative_update_orl_['blur_noise']_0,multiplicative_update,orl,['blur_noise'],0.6361111111111111,0.8116546437494612,0.08736273646354675
-multiplicative_update_orl_['blur_noise']_1,./images/multiplicative_update_orl_['blur_noise']_1,multiplicative_update,orl,['blur_noise'],0.6166666666666667,0.8034311027614283,0.08684008568525314
-multiplicative_update_orl_['blur_noise']_2,./images/multiplicative_update_orl_['blur_noise']_2,multiplicative_update,orl,['blur_noise'],0.6611111111111111,0.8225645954801777,0.088270403444767
-multiplicative_update_orl_['blur_noise']_3,./images/multiplicative_update_orl_['blur_noise']_3,multiplicative_update,orl,['blur_noise'],0.6583333333333333,0.8179155703084027,0.0883752778172493
-multiplicative_update_orl_['blur_noise']_4,./images/multiplicative_update_orl_['blur_noise']_4,multiplicative_update,orl,['blur_noise'],0.6305555555555555,0.8007463868935288,0.08624906092882156
-"multiplicative_update_orl_['block_noise', 'blur_noise']_0","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_0",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.525,0.7194871984566688,0.08837655186653137
-"multiplicative_update_orl_['block_noise', 'blur_noise']_1","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_1",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5388888888888889,0.7107158279939605,0.09238247573375702
-"multiplicative_update_orl_['block_noise', 'blur_noise']_2","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_2",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5416666666666666,0.7162927631465237,0.09239109605550766
-"multiplicative_update_orl_['block_noise', 'blur_noise']_3","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_3",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5527777777777778,0.72291953199142,0.09043024480342865
-"multiplicative_update_orl_['block_noise', 'blur_noise']_4","./images/multiplicative_update_orl_['block_noise', 'blur_noise']_4",multiplicative_update,orl,"['block_noise', 'blur_noise']",0.5583333333333333,0.720847875279372,0.09124090522527695
+name,reconstructed_images_path,nmf,dataset,noises,noise_p,lambda,alpha,beta,none,acc,nmi,rmse
+robust_yaleB_0_5_0,./images/robust_yaleB_0_5_0,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.1243093922651933,0.1477166135771123,0.0873536840081214
+robust_yaleB_0_5_1,./images/robust_yaleB_0_5_1,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.1312154696132596,0.1752473362779786,0.0865455195307731
+robust_yaleB_0_5_2,./images/robust_yaleB_0_5_2,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.1312154696132596,0.1482046234850738,0.0867353528738021
+robust_yaleB_0_5_3,./images/robust_yaleB_0_5_3,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.1385819521178637,0.1474591247100228,0.0871136859059333
+robust_yaleB_0_5_4,./images/robust_yaleB_0_5_4,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.1279926335174954,0.1442031504900005,0.0868506208062172
+robust_yaleB_0_8_0,./images/robust_yaleB_0_8_0,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.1362799263351749,0.1754144436987535,0.0871900394558906
+robust_yaleB_0_8_1,./images/robust_yaleB_0_8_1,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.1335174953959484,0.165682951879944,0.0866729617118835
+robust_yaleB_0_8_2,./images/robust_yaleB_0_8_2,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.1339779005524861,0.1627613766766431,0.0863469615578651
+robust_yaleB_0_8_3,./images/robust_yaleB_0_8_3,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.1372007366482504,0.1612862727756499,0.0867028310894966
+robust_yaleB_0_8_4,./images/robust_yaleB_0_8_4,robust,yaleB,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.1256906077348066,0.1577170349551226,0.0866611525416374
+robust_yaleB_0_10_0,./images/robust_yaleB_0_10_0,robust,yaleB,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.1325966850828729,0.1790355233300205,0.0869622603058815
+robust_yaleB_0_10_1,./images/robust_yaleB_0_10_1,robust,yaleB,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.1256906077348066,0.1597528507740803,0.0866162776947021
+robust_yaleB_0_10_2,./images/robust_yaleB_0_10_2,robust,yaleB,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.1252302025782689,0.154219016808915,0.0864527076482772
+robust_yaleB_0_10_3,./images/robust_yaleB_0_10_3,robust,yaleB,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.1316758747697974,0.1533544641751008,0.086092785000801
+robust_yaleB_0_10_4,./images/robust_yaleB_0_10_4,robust,yaleB,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.1348987108655616,0.1523654634507754,0.0870066508650779
+sparse_yaleB_0_5_0,./images/sparse_yaleB_0_5_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.1270718232044199,0.1729469921271858,0.0982094407081604
+sparse_yaleB_0_5_1,./images/sparse_yaleB_0_5_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.1197053406998158,0.1458481727035386,0.098413236439228
+sparse_yaleB_0_5_2,./images/sparse_yaleB_0_5_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.1275322283609576,0.1596627743046542,0.0982274636626243
+sparse_yaleB_0_5_3,./images/sparse_yaleB_0_5_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.1224677716390423,0.1373616855232879,0.0987423285841941
+sparse_yaleB_0_5_4,./images/sparse_yaleB_0_5_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.115561694290976,0.1464489924155808,0.0985729396343231
+sparse_yaleB_0_8_0,./images/sparse_yaleB_0_8_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.1325966850828729,0.1441403404135812,0.0993886888027191
+sparse_yaleB_0_8_1,./images/sparse_yaleB_0_8_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.117403314917127,0.1315834308925573,0.0990587323904037
+sparse_yaleB_0_8_2,./images/sparse_yaleB_0_8_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.1316758747697974,0.1506884369153769,0.0991937741637229
+sparse_yaleB_0_8_3,./images/sparse_yaleB_0_8_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.1233885819521178,0.1462871579416163,0.0991825237870216
+sparse_yaleB_0_8_4,./images/sparse_yaleB_0_8_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.1109576427255985,0.1155161469100198,0.0989774242043495
+sparse_yaleB_0_10_0,./images/sparse_yaleB_0_10_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.1247697974217311,0.1305735400501946,0.0998905375599861
+sparse_yaleB_0_10_1,./images/sparse_yaleB_0_10_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.1252302025782689,0.14751059281988,0.0996899306774139
+sparse_yaleB_0_10_2,./images/sparse_yaleB_0_10_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.1160220994475138,0.1323962791324029,0.0997872203588485
+sparse_yaleB_0_10_3,./images/sparse_yaleB_0_10_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.1206261510128913,0.1489271371574408,0.0998658388853073
+sparse_yaleB_0_10_4,./images/sparse_yaleB_0_10_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.1183241252302025,0.1397023649996402,0.0997190251946449
+multiplicative_update_yaleB_0_0_0,./images/multiplicative_update_yaleB_0_0_0,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.1058931860036832,0.1376538539207315,0.0983200073242187
+multiplicative_update_yaleB_0_0_1,./images/multiplicative_update_yaleB_0_0_1,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.1068139963167587,0.1250077658117271,0.0981693118810653
+multiplicative_update_yaleB_0_0_2,./images/multiplicative_update_yaleB_0_0_2,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.1183241252302025,0.1438096263117723,0.0986655429005622
+multiplicative_update_yaleB_0_0_3,./images/multiplicative_update_yaleB_0_0_3,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.1141804788213628,0.1262537771785526,0.0982708036899566
+multiplicative_update_yaleB_0_0_4,./images/multiplicative_update_yaleB_0_0_4,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.1201657458563535,0.1337177141135212,0.0983716994524002
+robust_yaleB_15_5_0,./images/robust_yaleB_15_5_0,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.1160220994475138,0.139098402027144,0.0912722796201706
+robust_yaleB_15_5_1,./images/robust_yaleB_15_5_1,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.117403314917127,0.1328360117455864,0.0915513038635253
+robust_yaleB_15_5_2,./images/robust_yaleB_15_5_2,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.1220073664825046,0.1575718669964516,0.0916136428713798
+robust_yaleB_15_5_3,./images/robust_yaleB_15_5_3,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.1298342541436464,0.1548583607444013,0.0916418805718422
+robust_yaleB_15_5_4,./images/robust_yaleB_15_5_4,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.1270718232044199,0.1548400101978312,0.0912115946412086
+robust_yaleB_15_8_0,./images/robust_yaleB_15_8_0,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.1233885819521178,0.1408421048893736,0.0912756994366645
+robust_yaleB_15_8_1,./images/robust_yaleB_15_8_1,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.1256906077348066,0.1588375262739557,0.0912578031420707
+robust_yaleB_15_8_2,./images/robust_yaleB_15_8_2,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.1256906077348066,0.1502284606289494,0.0907156020402908
+robust_yaleB_15_8_3,./images/robust_yaleB_15_8_3,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.1247697974217311,0.1446237698027142,0.0914114341139793
+robust_yaleB_15_8_4,./images/robust_yaleB_15_8_4,robust,yaleB,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.1178637200736648,0.1577495363770596,0.0909002721309661
+robust_yaleB_15_10_0,./images/robust_yaleB_15_10_0,robust,yaleB,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.1385819521178637,0.1517697102367674,0.0911275148391723
+robust_yaleB_15_10_1,./images/robust_yaleB_15_10_1,robust,yaleB,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.1289134438305709,0.1441382672590133,0.0908619239926338
+robust_yaleB_15_10_2,./images/robust_yaleB_15_10_2,robust,yaleB,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.1086556169429097,0.1292399742606255,0.0913901776075363
+robust_yaleB_15_10_3,./images/robust_yaleB_15_10_3,robust,yaleB,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.1220073664825046,0.1355781672111409,0.0918360278010368
+robust_yaleB_15_10_4,./images/robust_yaleB_15_10_4,robust,yaleB,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.1302946593001841,0.1493984494313293,0.0909942388534545
+sparse_yaleB_15_5_0,./images/sparse_yaleB_15_5_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.1086556169429097,0.1143696456328943,0.1024275571107864
+sparse_yaleB_15_5_1,./images/sparse_yaleB_15_5_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.1206261510128913,0.1446230169005493,0.1024780943989753
+sparse_yaleB_15_5_2,./images/sparse_yaleB_15_5_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.1123388581952117,0.1177207958293152,0.1024789065122604
+sparse_yaleB_15_5_3,./images/sparse_yaleB_15_5_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.115561694290976,0.1466142983855571,0.102201834321022
+sparse_yaleB_15_5_4,./images/sparse_yaleB_15_5_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.1206261510128913,0.1527175249189901,0.1027944460511207
+sparse_yaleB_15_8_0,./images/sparse_yaleB_15_8_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.1026703499079189,0.1332239823631606,0.1032333001494407
+sparse_yaleB_15_8_1,./images/sparse_yaleB_15_8_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.1197053406998158,0.1319584272988132,0.1027802303433418
+sparse_yaleB_15_8_2,./images/sparse_yaleB_15_8_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.1187845303867403,0.1368859700131361,0.1023605987429618
+sparse_yaleB_15_8_3,./images/sparse_yaleB_15_8_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.110036832412523,0.1351700131678625,0.1033712103962898
+sparse_yaleB_15_8_4,./images/sparse_yaleB_15_8_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.1086556169429097,0.121104511969276,0.1031658053398132
+sparse_yaleB_15_10_0,./images/sparse_yaleB_15_10_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.1123388581952117,0.1184402257052835,0.1038429886102676
+sparse_yaleB_15_10_1,./images/sparse_yaleB_15_10_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.108195211786372,0.1117449575323687,0.1041257083415985
+sparse_yaleB_15_10_2,./images/sparse_yaleB_15_10_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.1160220994475138,0.1287700884861998,0.1034624353051185
+sparse_yaleB_15_10_3,./images/sparse_yaleB_15_10_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.1091160220994475,0.1346694234625556,0.1038549914956092
+sparse_yaleB_15_10_4,./images/sparse_yaleB_15_10_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.1095764272559852,0.1341964177871549,0.103993035852909
+multiplicative_update_yaleB_15_0_0,./images/multiplicative_update_yaleB_15_0_0,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.113720073664825,0.128397542853129,0.1018667742609977
+multiplicative_update_yaleB_15_0_1,./images/multiplicative_update_yaleB_15_0_1,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.106353591160221,0.1017829845269947,0.1022545844316482
+multiplicative_update_yaleB_15_0_2,./images/multiplicative_update_yaleB_15_0_2,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.1104972375690607,0.1301120561001791,0.1024039164185524
+multiplicative_update_yaleB_15_0_3,./images/multiplicative_update_yaleB_15_0_3,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.1091160220994475,0.1127055706072574,0.10268335044384
+multiplicative_update_yaleB_15_0_4,./images/multiplicative_update_yaleB_15_0_4,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.1164825046040515,0.1310154907919262,0.1021821945905685
+robust_yaleB_40_5_0,./images/robust_yaleB_40_5_0,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.108195211786372,0.1254288023715911,0.0969564318656921
+robust_yaleB_40_5_1,./images/robust_yaleB_40_5_1,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.110036832412523,0.1183844524904773,0.09680837392807
+robust_yaleB_40_5_2,./images/robust_yaleB_40_5_2,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.1104972375690607,0.1096576085324264,0.0965981557965278
+robust_yaleB_40_5_3,./images/robust_yaleB_40_5_3,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.1127992633517495,0.1320150773744886,0.0957737565040588
+robust_yaleB_40_5_4,./images/robust_yaleB_40_5_4,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.1215469613259668,0.1341509478425545,0.0958694964647293
+robust_yaleB_40_8_0,./images/robust_yaleB_40_8_0,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.1072744014732965,0.1230481179248557,0.0963029563426971
+robust_yaleB_40_8_1,./images/robust_yaleB_40_8_1,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.1206261510128913,0.1306389617857224,0.095677301287651
+robust_yaleB_40_8_2,./images/robust_yaleB_40_8_2,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.111878453038674,0.1278674975319201,0.0964458584785461
+robust_yaleB_40_8_3,./images/robust_yaleB_40_8_3,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.1151012891344383,0.1144534026485606,0.0959544107317924
+robust_yaleB_40_8_4,./images/robust_yaleB_40_8_4,robust,yaleB,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.113720073664825,0.117929873042557,0.0963441804051399
+robust_yaleB_40_10_0,./images/robust_yaleB_40_10_0,robust,yaleB,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.1151012891344383,0.1174565772828519,0.096114695072174
+robust_yaleB_40_10_1,./images/robust_yaleB_40_10_1,robust,yaleB,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.106353591160221,0.1100652750092554,0.0953535065054893
+robust_yaleB_40_10_2,./images/robust_yaleB_40_10_2,robust,yaleB,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.1077348066298342,0.1176727770939344,0.0964855253696441
+robust_yaleB_40_10_3,./images/robust_yaleB_40_10_3,robust,yaleB,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.0999079189686924,0.0971859512237002,0.0961503013968467
+robust_yaleB_40_10_4,./images/robust_yaleB_40_10_4,robust,yaleB,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.1114180478821362,0.101661842947268,0.0967690572142601
+sparse_yaleB_40_5_0,./images/sparse_yaleB_40_5_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.1068139963167587,0.113983872174796,0.1063634604215622
+sparse_yaleB_40_5_1,./images/sparse_yaleB_40_5_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.0953038674033149,0.0998876481524481,0.1062935590744018
+sparse_yaleB_40_5_2,./images/sparse_yaleB_40_5_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.0966850828729281,0.1137420042904209,0.1064082160592079
+sparse_yaleB_40_5_3,./images/sparse_yaleB_40_5_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.1104972375690607,0.1136720536535795,0.1059218645095825
+sparse_yaleB_40_5_4,./images/sparse_yaleB_40_5_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.1017495395948434,0.1105247837827685,0.1063885986804962
+sparse_yaleB_40_8_0,./images/sparse_yaleB_40_8_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.10497237569060773,0.1085242559199287,0.10735277831554413
+sparse_yaleB_40_8_1,./images/sparse_yaleB_40_8_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.09806629834254144,0.11159008185120256,0.10733234882354736
+sparse_yaleB_40_8_2,./images/sparse_yaleB_40_8_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.10819521178637201,0.11588418264458876,0.10715646296739578
+sparse_yaleB_40_8_3,./images/sparse_yaleB_40_8_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.10497237569060773,0.10883500043419755,0.10617465525865555
+sparse_yaleB_40_8_4,./images/sparse_yaleB_40_8_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.10313075506445672,0.12277341090854561,0.1061820536851883
+sparse_yaleB_40_10_0,./images/sparse_yaleB_40_10_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.09806629834254144,0.09947556237464497,0.10782460868358612
+sparse_yaleB_40_10_1,./images/sparse_yaleB_40_10_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.10174953959484347,0.1087782501507537,0.10847657918930054
+sparse_yaleB_40_10_2,./images/sparse_yaleB_40_10_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.10128913443830571,0.11191451623984051,0.10765643417835236
+sparse_yaleB_40_10_3,./images/sparse_yaleB_40_10_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.09668508287292818,0.10090600954518575,0.10840260982513428
+sparse_yaleB_40_10_4,./images/sparse_yaleB_40_10_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.1003683241252302,0.10825001392206174,0.1078614890575409
+multiplicative_update_yaleB_40_0_0,./images/multiplicative_update_yaleB_40_0_0,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.10865561694290976,0.12286410522990868,0.10655141621828079
+multiplicative_update_yaleB_40_0_1,./images/multiplicative_update_yaleB_40_0_1,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.10174953959484347,0.09449115579427016,0.10636793822050095
+multiplicative_update_yaleB_40_0_2,./images/multiplicative_update_yaleB_40_0_2,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.09898710865561694,0.0914454099092729,0.10671792924404144
+multiplicative_update_yaleB_40_0_3,./images/multiplicative_update_yaleB_40_0_3,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.09898710865561694,0.11041650846282515,0.10589313507080078
+multiplicative_update_yaleB_40_0_4,./images/multiplicative_update_yaleB_40_0_4,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.10589318600368323,0.12081147148635085,0.10674064606428146
+robust_yaleB_70_5_0,./images/robust_yaleB_70_5_0,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.10405156537753223,0.10107437475104575,0.10037973523139954
+robust_yaleB_70_5_1,./images/robust_yaleB_70_5_1,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.08977900552486189,0.09455417860161833,0.10005499422550201
+robust_yaleB_70_5_2,./images/robust_yaleB_70_5_2,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.09760589318600368,0.09999187191801186,0.10002079606056213
+robust_yaleB_70_5_3,./images/robust_yaleB_70_5_3,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.09944751381215469,0.10071321783869676,0.09969201683998108
+robust_yaleB_70_5_4,./images/robust_yaleB_70_5_4,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.11141804788213629,0.12054168904087877,0.10055702924728394
+robust_yaleB_70_8_0,./images/robust_yaleB_70_8_0,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.0916206261510129,0.0996764138301364,0.09967432171106339
+robust_yaleB_70_8_1,./images/robust_yaleB_70_8_1,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.09852670349907919,0.10105561852230963,0.10016939789056778
+robust_yaleB_70_8_2,./images/robust_yaleB_70_8_2,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.08747697974217311,0.08225134198043087,0.10043955594301224
+robust_yaleB_70_8_3,./images/robust_yaleB_70_8_3,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.10220994475138122,0.10531490956356039,0.09960034489631653
+robust_yaleB_70_8_4,./images/robust_yaleB_70_8_4,robust,yaleB,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.10174953959484347,0.0997557883860843,0.10062111914157867
+robust_yaleB_70_10_0,./images/robust_yaleB_70_10_0,robust,yaleB,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.09760589318600368,0.10477770509318218,0.10061987489461899
+robust_yaleB_70_10_1,./images/robust_yaleB_70_10_1,robust,yaleB,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.09530386740331492,0.08517462482704811,0.10012508183717728
+robust_yaleB_70_10_2,./images/robust_yaleB_70_10_2,robust,yaleB,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.09116022099447514,0.09814709302921922,0.10020532459020615
+robust_yaleB_70_10_3,./images/robust_yaleB_70_10_3,robust,yaleB,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.09944751381215469,0.09343613030407134,0.1004040315747261
+robust_yaleB_70_10_4,./images/robust_yaleB_70_10_4,robust,yaleB,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.09530386740331492,0.09397755763884762,0.09988807141780853
+sparse_yaleB_70_5_0,./images/sparse_yaleB_70_5_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.08931860036832412,0.08671072293191048,0.10983828455209732
+sparse_yaleB_70_5_1,./images/sparse_yaleB_70_5_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.08747697974217311,0.08960924276638664,0.10887211561203003
+sparse_yaleB_70_5_2,./images/sparse_yaleB_70_5_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.09944751381215469,0.10344462032559386,0.10898543894290924
+sparse_yaleB_70_5_3,./images/sparse_yaleB_70_5_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.09852670349907919,0.09696459654124201,0.1087656244635582
+sparse_yaleB_70_5_4,./images/sparse_yaleB_70_5_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.0925414364640884,0.09145552390141215,0.10929398983716965
+sparse_yaleB_70_8_0,./images/sparse_yaleB_70_8_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.09069981583793739,0.09979410225644958,0.10887394100427628
+sparse_yaleB_70_8_1,./images/sparse_yaleB_70_8_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.08839779005524862,0.08780894419957774,0.10935325175523758
+sparse_yaleB_70_8_2,./images/sparse_yaleB_70_8_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.08977900552486189,0.09212056847527997,0.10997207462787628
+sparse_yaleB_70_8_3,./images/sparse_yaleB_70_8_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.09530386740331492,0.09365380271933886,0.10988474637269974
+sparse_yaleB_70_8_4,./images/sparse_yaleB_70_8_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.09208103130755065,0.09130231280889356,0.10920450091362
+sparse_yaleB_70_10_0,./images/sparse_yaleB_70_10_0,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.09668508287292818,0.0985253804217142,0.11088039726018906
+sparse_yaleB_70_10_1,./images/sparse_yaleB_70_10_1,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.0934622467771639,0.0929525232958843,0.11016735434532166
+sparse_yaleB_70_10_2,./images/sparse_yaleB_70_10_2,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.0943830570902394,0.09159819793436129,0.11065130680799484
+sparse_yaleB_70_10_3,./images/sparse_yaleB_70_10_3,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.08701657458563536,0.09379973302896921,0.11088898777961731
+sparse_yaleB_70_10_4,./images/sparse_yaleB_70_10_4,sparse,yaleB,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.0916206261510129,0.09805229181030739,0.11020923405885696
+multiplicative_update_yaleB_70_0_0,./images/multiplicative_update_yaleB_70_0_0,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.09668508287292818,0.09075025392360293,0.10917598754167557
+multiplicative_update_yaleB_70_0_1,./images/multiplicative_update_yaleB_70_0_1,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.08931860036832412,0.09031429387274174,0.10988900810480118
+multiplicative_update_yaleB_70_0_2,./images/multiplicative_update_yaleB_70_0_2,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.09714548802946593,0.10534495884397672,0.10939403623342514
+multiplicative_update_yaleB_70_0_3,./images/multiplicative_update_yaleB_70_0_3,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.08793738489871086,0.0928032335273397,0.10981778800487518
+multiplicative_update_yaleB_70_0_4,./images/multiplicative_update_yaleB_70_0_4,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.09622467771639043,0.0898272373042168,0.10925460606813431
+robust_yaleB_100_5_0,./images/robust_yaleB_100_5_0,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.0847145488029466,0.07659867887436912,0.10213930904865265
+robust_yaleB_100_5_1,./images/robust_yaleB_100_5_1,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.09668508287292818,0.09824341064069358,0.10255703330039978
+robust_yaleB_100_5_2,./images/robust_yaleB_100_5_2,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.0856353591160221,0.08163410811281066,0.10314761102199554
+robust_yaleB_100_5_3,./images/robust_yaleB_100_5_3,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.08333333333333333,0.07822172865959312,0.10296684503555298
+robust_yaleB_100_5_4,./images/robust_yaleB_100_5_4,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.08701657458563536,0.08587259741624767,0.10310087352991104
+robust_yaleB_100_8_0,./images/robust_yaleB_100_8_0,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.0925414364640884,0.08435838744234832,0.10243711620569229
+robust_yaleB_100_8_1,./images/robust_yaleB_100_8_1,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.08379373848987108,0.07438890218178187,0.10288030654191971
+robust_yaleB_100_8_2,./images/robust_yaleB_100_8_2,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.0865561694290976,0.09024118175421618,0.10253344476222992
+robust_yaleB_100_8_3,./images/robust_yaleB_100_8_3,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.08701657458563536,0.07992307929877282,0.1026645302772522
+robust_yaleB_100_8_4,./images/robust_yaleB_100_8_4,robust,yaleB,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.08609576427255985,0.07725494197142013,0.1025300994515419
+robust_yaleB_100_10_0,./images/robust_yaleB_100_10_0,robust,yaleB,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.08425414364640885,0.08066377627216621,0.1026800200343132
+robust_yaleB_100_10_1,./images/robust_yaleB_100_10_1,robust,yaleB,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.08793738489871086,0.08667186600358992,0.10264409333467484
+robust_yaleB_100_10_2,./images/robust_yaleB_100_10_2,robust,yaleB,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.07642725598526703,0.07509439012964922,0.10228818655014038
+robust_yaleB_100_10_3,./images/robust_yaleB_100_10_3,robust,yaleB,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.09069981583793739,0.09026120749531975,0.1025693416595459
+robust_yaleB_100_10_4,./images/robust_yaleB_100_10_4,robust,yaleB,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.08517495395948435,0.07235407850877809,0.10286054015159607
+sparse_yaleB_100_5_0,./images/sparse_yaleB_100_5_0,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.08195211786372007,0.08077675090759659,0.1110067069530487
+sparse_yaleB_100_5_1,./images/sparse_yaleB_100_5_1,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.08517495395948435,0.08186086011012686,0.1113501563668251
+sparse_yaleB_100_5_2,./images/sparse_yaleB_100_5_2,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.08701657458563536,0.0980827500788113,0.11140117794275284
+sparse_yaleB_100_5_3,./images/sparse_yaleB_100_5_3,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.0847145488029466,0.07719128156593347,0.11117040365934372
+sparse_yaleB_100_5_4,./images/sparse_yaleB_100_5_4,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.08609576427255985,0.08728555156926679,0.11104611307382584
+sparse_yaleB_100_8_0,./images/sparse_yaleB_100_8_0,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.08333333333333333,0.08192769943802414,0.11148735135793686
+sparse_yaleB_100_8_1,./images/sparse_yaleB_100_8_1,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.08609576427255985,0.0849667366806596,0.11228815466165543
+sparse_yaleB_100_8_2,./images/sparse_yaleB_100_8_2,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.08793738489871086,0.0789954705865666,0.11145476251840591
+sparse_yaleB_100_8_3,./images/sparse_yaleB_100_8_3,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.09023941068139964,0.07879287640387764,0.11135735362768173
+sparse_yaleB_100_8_4,./images/sparse_yaleB_100_8_4,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.08839779005524862,0.08017331345957798,0.1120603084564209
+sparse_yaleB_100_10_0,./images/sparse_yaleB_100_10_0,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.08609576427255985,0.08611422232360101,0.1123102456331253
+sparse_yaleB_100_10_1,./images/sparse_yaleB_100_10_1,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.08287292817679558,0.06972235822508806,0.11143326014280319
+sparse_yaleB_100_10_2,./images/sparse_yaleB_100_10_2,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.08195211786372007,0.07972912642805256,0.11209919303655624
+sparse_yaleB_100_10_3,./images/sparse_yaleB_100_10_3,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.0856353591160221,0.08045987966045334,0.11238924413919449
+sparse_yaleB_100_10_4,./images/sparse_yaleB_100_10_4,sparse,yaleB,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.08747697974217311,0.07517594599311755,0.11254455894231796
+multiplicative_update_yaleB_100_0_0,./images/multiplicative_update_yaleB_100_0_0,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.0916206261510129,0.08197237175255596,0.11051938682794571
+multiplicative_update_yaleB_100_0_1,./images/multiplicative_update_yaleB_100_0_1,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.08793738489871086,0.07980713144219458,0.1112167239189148
+multiplicative_update_yaleB_100_0_2,./images/multiplicative_update_yaleB_100_0_2,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.08195211786372007,0.0720740239244274,0.11079170554876328
+multiplicative_update_yaleB_100_0_3,./images/multiplicative_update_yaleB_100_0_3,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.08609576427255985,0.08586172119012757,0.11106546223163605
+multiplicative_update_yaleB_100_0_4,./images/multiplicative_update_yaleB_100_0_4,multiplicative_update,yaleB,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.08609576427255985,0.08070088585177465,0.1109476163983345
+robust_orl_0_5_0,./images/robust_orl_0_5_0,robust,orl,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.6055555555555555,0.7678853399387807,0.15808260440826416
+robust_orl_0_5_1,./images/robust_orl_0_5_1,robust,orl,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.5805555555555556,0.7601108182654066,0.15852823853492737
+robust_orl_0_5_2,./images/robust_orl_0_5_2,robust,orl,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.5944444444444444,0.7719417163336499,0.1600017249584198
+robust_orl_0_5_3,./images/robust_orl_0_5_3,robust,orl,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.625,0.7840634972969486,0.1577014923095703
+robust_orl_0_5_4,./images/robust_orl_0_5_4,robust,orl,"['block_noise', 'blur_noise']",0.0,0.5,,,,0.5722222222222222,0.7372924309584031,0.15947239100933075
+robust_orl_0_8_0,./images/robust_orl_0_8_0,robust,orl,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.5916666666666667,0.768509330070558,0.1568177491426468
+robust_orl_0_8_1,./images/robust_orl_0_8_1,robust,orl,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.5444444444444444,0.7470750188601328,0.1559242159128189
+robust_orl_0_8_2,./images/robust_orl_0_8_2,robust,orl,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.5972222222222222,0.786356134174834,0.15593375265598297
+robust_orl_0_8_3,./images/robust_orl_0_8_3,robust,orl,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.6055555555555555,0.7811357338540391,0.1565065234899521
+robust_orl_0_8_4,./images/robust_orl_0_8_4,robust,orl,"['block_noise', 'blur_noise']",0.0,0.8,,,,0.5777777777777777,0.7663078413712435,0.1556638777256012
+robust_orl_0_10_0,./images/robust_orl_0_10_0,robust,orl,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.6305555555555555,0.7796741108402317,0.15677499771118164
+robust_orl_0_10_1,./images/robust_orl_0_10_1,robust,orl,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.5555555555555556,0.7526564953668357,0.1561347395181656
+robust_orl_0_10_2,./images/robust_orl_0_10_2,robust,orl,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.5972222222222222,0.7781264635276881,0.1552383303642273
+robust_orl_0_10_3,./images/robust_orl_0_10_3,robust,orl,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.5583333333333333,0.7512142517981124,0.15566013753414154
+robust_orl_0_10_4,./images/robust_orl_0_10_4,robust,orl,"['block_noise', 'blur_noise']",0.0,1.0,,,,0.5361111111111111,0.7451329484864433,0.15761509537696838
+sparse_orl_0_5_0,./images/sparse_orl_0_5_0,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.6472222222222223,0.8158449017365973,0.11087702959775925
+sparse_orl_0_5_1,./images/sparse_orl_0_5_1,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.6972222222222222,0.8317496829970626,0.11089669167995453
+sparse_orl_0_5_2,./images/sparse_orl_0_5_2,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.6555555555555556,0.8149011616795333,0.11024707555770874
+sparse_orl_0_5_3,./images/sparse_orl_0_5_3,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.6222222222222222,0.7950695360741119,0.1111077219247818
+sparse_orl_0_5_4,./images/sparse_orl_0_5_4,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.5,0.5,,0.6611111111111111,0.8194083426205954,0.11091030389070511
+sparse_orl_0_8_0,./images/sparse_orl_0_8_0,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.6083333333333333,0.7900178894254007,0.11585386097431183
+sparse_orl_0_8_1,./images/sparse_orl_0_8_1,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.6777777777777778,0.8261126461457774,0.11578446626663208
+sparse_orl_0_8_2,./images/sparse_orl_0_8_2,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.6583333333333333,0.8154913146431391,0.11435753852128983
+sparse_orl_0_8_3,./images/sparse_orl_0_8_3,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.7,0.8243358792900921,0.11602525413036346
+sparse_orl_0_8_4,./images/sparse_orl_0_8_4,sparse,orl,"['block_noise', 'blur_noise']",0.0,,0.8,0.8,,0.625,0.7853100849831983,0.11497799307107925
+sparse_orl_0_10_0,./images/sparse_orl_0_10_0,sparse,orl,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.6194444444444445,0.79796400190679,0.11932320892810822
+sparse_orl_0_10_1,./images/sparse_orl_0_10_1,sparse,orl,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.6444444444444445,0.8045452382586402,0.11977215856313705
+sparse_orl_0_10_2,./images/sparse_orl_0_10_2,sparse,orl,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.6444444444444445,0.7994851872987314,0.11952605843544006
+sparse_orl_0_10_3,./images/sparse_orl_0_10_3,sparse,orl,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.6138888888888889,0.7911998829147492,0.11976349353790283
+sparse_orl_0_10_4,./images/sparse_orl_0_10_4,sparse,orl,"['block_noise', 'blur_noise']",0.0,,1.0,1.0,,0.6305555555555555,0.8026280042828079,0.11953476816415787
+multiplicative_update_orl_0_0_0,./images/multiplicative_update_orl_0_0_0,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.6138888888888889,0.8010496721699653,0.11002375185489655
+multiplicative_update_orl_0_0_1,./images/multiplicative_update_orl_0_0_1,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.6722222222222223,0.822280739903323,0.10947908461093903
+multiplicative_update_orl_0_0_2,./images/multiplicative_update_orl_0_0_2,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.675,0.8215216592271611,0.10935159772634506
+multiplicative_update_orl_0_0_3,./images/multiplicative_update_orl_0_0_3,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.6527777777777778,0.8093071753700763,0.10998369008302689
+multiplicative_update_orl_0_0_4,./images/multiplicative_update_orl_0_0_4,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.0,,,,0.0,0.6472222222222223,0.8080765099890158,0.10977750271558762
+robust_orl_15_5_0,./images/robust_orl_15_5_0,robust,orl,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.5138888888888888,0.7218862572122889,0.1607983112335205
+robust_orl_15_5_1,./images/robust_orl_15_5_1,robust,orl,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.5638888888888889,0.7343655471639483,0.16067054867744446
+robust_orl_15_5_2,./images/robust_orl_15_5_2,robust,orl,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.55,0.7417950458228345,0.1604514718055725
+robust_orl_15_5_3,./images/robust_orl_15_5_3,robust,orl,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.5472222222222223,0.7276084598832078,0.16098937392234802
+robust_orl_15_5_4,./images/robust_orl_15_5_4,robust,orl,"['block_noise', 'blur_noise']",0.15,0.5,,,,0.5555555555555556,0.7370474851094143,0.1603493094444275
+robust_orl_15_8_0,./images/robust_orl_15_8_0,robust,orl,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.5583333333333333,0.742042573019273,0.15849463641643524
+robust_orl_15_8_1,./images/robust_orl_15_8_1,robust,orl,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.5444444444444444,0.7301627756879371,0.15793466567993164
+robust_orl_15_8_2,./images/robust_orl_15_8_2,robust,orl,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.6027777777777777,0.7598164304093759,0.1588871330022812
+robust_orl_15_8_3,./images/robust_orl_15_8_3,robust,orl,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.5583333333333333,0.7474756782914946,0.15756063163280487
+robust_orl_15_8_4,./images/robust_orl_15_8_4,robust,orl,"['block_noise', 'blur_noise']",0.15,0.8,,,,0.5694444444444444,0.7396185400453756,0.15905365347862244
+robust_orl_15_10_0,./images/robust_orl_15_10_0,robust,orl,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.525,0.7180794456878107,0.15687446296215057
+robust_orl_15_10_1,./images/robust_orl_15_10_1,robust,orl,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.5722222222222222,0.7460697096878691,0.1599760353565216
+robust_orl_15_10_2,./images/robust_orl_15_10_2,robust,orl,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.5722222222222222,0.7445604200633766,0.1577504426240921
+robust_orl_15_10_3,./images/robust_orl_15_10_3,robust,orl,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.5555555555555556,0.7506768347438829,0.15687832236289978
+robust_orl_15_10_4,./images/robust_orl_15_10_4,robust,orl,"['block_noise', 'blur_noise']",0.15,1.0,,,,0.5472222222222223,0.735252170897936,0.1574609875679016
+sparse_orl_15_5_0,./images/sparse_orl_15_5_0,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.6194444444444445,0.7890280356347131,0.11148490011692047
+sparse_orl_15_5_1,./images/sparse_orl_15_5_1,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.6416666666666667,0.792543898019984,0.11108957976102829
+sparse_orl_15_5_2,./images/sparse_orl_15_5_2,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.575,0.7647221634375172,0.1109212264418602
+sparse_orl_15_5_3,./images/sparse_orl_15_5_3,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.6944444444444444,0.8206155706327711,0.110898956656456
+sparse_orl_15_5_4,./images/sparse_orl_15_5_4,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.5,0.5,,0.6222222222222222,0.7902855049263049,0.11083871871232986
+sparse_orl_15_8_0,./images/sparse_orl_15_8_0,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.6083333333333333,0.760885417691903,0.11553681641817093
+sparse_orl_15_8_1,./images/sparse_orl_15_8_1,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.6277777777777778,0.8030751996955517,0.11549089848995209
+sparse_orl_15_8_2,./images/sparse_orl_15_8_2,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.625,0.7944603298149938,0.1165429875254631
+sparse_orl_15_8_3,./images/sparse_orl_15_8_3,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.6277777777777778,0.7892230165180666,0.11430255323648453
+sparse_orl_15_8_4,./images/sparse_orl_15_8_4,sparse,orl,"['block_noise', 'blur_noise']",0.15,,0.8,0.8,,0.625,0.7979311928187013,0.11548532545566559
+sparse_orl_15_10_0,./images/sparse_orl_15_10_0,sparse,orl,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.5888888888888889,0.7743126638653599,0.11885923892259598
+sparse_orl_15_10_1,./images/sparse_orl_15_10_1,sparse,orl,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.6138888888888889,0.7922832269936165,0.11926764249801636
+sparse_orl_15_10_2,./images/sparse_orl_15_10_2,sparse,orl,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.6083333333333333,0.7843122102361207,0.12034116685390472
+sparse_orl_15_10_3,./images/sparse_orl_15_10_3,sparse,orl,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.5972222222222222,0.7632613390192615,0.12024848908185959
+sparse_orl_15_10_4,./images/sparse_orl_15_10_4,sparse,orl,"['block_noise', 'blur_noise']",0.15,,1.0,1.0,,0.6111111111111112,0.7743070658456699,0.11896246671676636
+multiplicative_update_orl_15_0_0,./images/multiplicative_update_orl_15_0_0,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.5694444444444444,0.7437619199780812,0.10940713435411453
+multiplicative_update_orl_15_0_1,./images/multiplicative_update_orl_15_0_1,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.6555555555555556,0.8067586560596802,0.11033830791711807
+multiplicative_update_orl_15_0_2,./images/multiplicative_update_orl_15_0_2,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.6277777777777778,0.7965404124725323,0.10965485870838165
+multiplicative_update_orl_15_0_3,./images/multiplicative_update_orl_15_0_3,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.5666666666666667,0.7692165410326316,0.10990327596664429
+multiplicative_update_orl_15_0_4,./images/multiplicative_update_orl_15_0_4,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.15,,,,0.0,0.575,0.7684796595919523,0.11024636030197144
+robust_orl_40_5_0,./images/robust_orl_40_5_0,robust,orl,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.48333333333333334,0.6844135111702475,0.16188375651836395
+robust_orl_40_5_1,./images/robust_orl_40_5_1,robust,orl,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.5138888888888888,0.7010588728840079,0.16122329235076904
+robust_orl_40_5_2,./images/robust_orl_40_5_2,robust,orl,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.49722222222222223,0.6837469497791215,0.1640559732913971
+robust_orl_40_5_3,./images/robust_orl_40_5_3,robust,orl,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.43333333333333335,0.651829761764511,0.16241008043289185
+robust_orl_40_5_4,./images/robust_orl_40_5_4,robust,orl,"['block_noise', 'blur_noise']",0.4,0.5,,,,0.48055555555555557,0.6861642828412992,0.16045843064785004
+robust_orl_40_8_0,./images/robust_orl_40_8_0,robust,orl,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.49722222222222223,0.6905812376613033,0.15959224104881287
+robust_orl_40_8_1,./images/robust_orl_40_8_1,robust,orl,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.5138888888888888,0.7027520597899471,0.1584024727344513
+robust_orl_40_8_2,./images/robust_orl_40_8_2,robust,orl,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.5,0.6836281437234256,0.15898863971233368
+robust_orl_40_8_3,./images/robust_orl_40_8_3,robust,orl,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.5,0.6921033588373496,0.1591501235961914
+robust_orl_40_8_4,./images/robust_orl_40_8_4,robust,orl,"['block_noise', 'blur_noise']",0.4,0.8,,,,0.5444444444444444,0.7100405063457143,0.15857605636119843
+robust_orl_40_10_0,./images/robust_orl_40_10_0,robust,orl,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.5111111111111111,0.6949151323470448,0.1588267832994461
+robust_orl_40_10_1,./images/robust_orl_40_10_1,robust,orl,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.49166666666666664,0.6918348484853427,0.1580909639596939
+robust_orl_40_10_2,./images/robust_orl_40_10_2,robust,orl,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.49444444444444446,0.7075547292571522,0.15869276225566864
+robust_orl_40_10_3,./images/robust_orl_40_10_3,robust,orl,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.5138888888888888,0.6932624120360363,0.15898729860782623
+robust_orl_40_10_4,./images/robust_orl_40_10_4,robust,orl,"['block_noise', 'blur_noise']",0.4,1.0,,,,0.5166666666666667,0.7068923395610874,0.15846467018127441
+sparse_orl_40_5_0,./images/sparse_orl_40_5_0,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.55,0.7238390648524919,0.10867247730493546
+sparse_orl_40_5_1,./images/sparse_orl_40_5_1,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.5527777777777778,0.7391335277272301,0.10822397470474243
+sparse_orl_40_5_2,./images/sparse_orl_40_5_2,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.5777777777777777,0.7395976811937669,0.10925960540771484
+sparse_orl_40_5_3,./images/sparse_orl_40_5_3,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.5555555555555556,0.7346530664010239,0.10789018124341965
+sparse_orl_40_5_4,./images/sparse_orl_40_5_4,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.5,0.5,,0.5388888888888889,0.7285588563595856,0.10881932824850082
+sparse_orl_40_8_0,./images/sparse_orl_40_8_0,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.5361111111111111,0.7127626437803036,0.11333899199962616
+sparse_orl_40_8_1,./images/sparse_orl_40_8_1,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.5527777777777778,0.7305819847533802,0.1125795915722847
+sparse_orl_40_8_2,./images/sparse_orl_40_8_2,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.55,0.7437999096498489,0.11262628436088562
+sparse_orl_40_8_3,./images/sparse_orl_40_8_3,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.5472222222222223,0.7194786001813136,0.11249908059835434
+sparse_orl_40_8_4,./images/sparse_orl_40_8_4,sparse,orl,"['block_noise', 'blur_noise']",0.4,,0.8,0.8,,0.5833333333333334,0.7425728159913794,0.11307699233293533
+sparse_orl_40_10_0,./images/sparse_orl_40_10_0,sparse,orl,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.5638888888888889,0.7334096311296805,0.11810041218996048
+sparse_orl_40_10_1,./images/sparse_orl_40_10_1,sparse,orl,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.6111111111111112,0.7697142904845423,0.1171468198299408
+sparse_orl_40_10_2,./images/sparse_orl_40_10_2,sparse,orl,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.5555555555555556,0.7208223484953539,0.11891505122184753
+sparse_orl_40_10_3,./images/sparse_orl_40_10_3,sparse,orl,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.5055555555555555,0.6952672027738925,0.11735780537128448
+sparse_orl_40_10_4,./images/sparse_orl_40_10_4,sparse,orl,"['block_noise', 'blur_noise']",0.4,,1.0,1.0,,0.5444444444444444,0.71934105925771,0.11862415820360184
+multiplicative_update_orl_40_0_0,./images/multiplicative_update_orl_40_0_0,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.6083333333333333,0.7522737394201633,0.10761069506406784
+multiplicative_update_orl_40_0_1,./images/multiplicative_update_orl_40_0_1,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.5333333333333333,0.691228553212418,0.10840488225221634
+multiplicative_update_orl_40_0_2,./images/multiplicative_update_orl_40_0_2,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.5888888888888889,0.7414195896255662,0.10806327313184738
+multiplicative_update_orl_40_0_3,./images/multiplicative_update_orl_40_0_3,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.5722222222222222,0.751158873508573,0.10689400136470795
+multiplicative_update_orl_40_0_4,./images/multiplicative_update_orl_40_0_4,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.4,,,,0.0,0.5444444444444444,0.7192084548770299,0.1089087724685669
+robust_orl_70_5_0,./images/robust_orl_70_5_0,robust,orl,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.39444444444444443,0.6034207002128559,0.1589299887418747
+robust_orl_70_5_1,./images/robust_orl_70_5_1,robust,orl,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.41944444444444445,0.6193909321861368,0.16170603036880493
+robust_orl_70_5_2,./images/robust_orl_70_5_2,robust,orl,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.475,0.6481752850770792,0.16064497828483582
+robust_orl_70_5_3,./images/robust_orl_70_5_3,robust,orl,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.4388888888888889,0.6413346497673555,0.15989167988300323
+robust_orl_70_5_4,./images/robust_orl_70_5_4,robust,orl,"['block_noise', 'blur_noise']",0.7,0.5,,,,0.42777777777777776,0.6225942806313086,0.16235031187534332
+robust_orl_70_8_0,./images/robust_orl_70_8_0,robust,orl,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.4111111111111111,0.6267507524213733,0.156803697347641
+robust_orl_70_8_1,./images/robust_orl_70_8_1,robust,orl,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.4527777777777778,0.6409638429956591,0.15797962248325348
+robust_orl_70_8_2,./images/robust_orl_70_8_2,robust,orl,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.4222222222222222,0.618127521683214,0.15903382003307343
+robust_orl_70_8_3,./images/robust_orl_70_8_3,robust,orl,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.45,0.6305468292289201,0.15816789865493774
+robust_orl_70_8_4,./images/robust_orl_70_8_4,robust,orl,"['block_noise', 'blur_noise']",0.7,0.8,,,,0.4444444444444444,0.6261967644833915,0.1588558405637741
+robust_orl_70_10_0,./images/robust_orl_70_10_0,robust,orl,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.4444444444444444,0.6433019883658712,0.15577183663845062
+robust_orl_70_10_1,./images/robust_orl_70_10_1,robust,orl,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.4666666666666667,0.6392040971718479,0.15611639618873596
+robust_orl_70_10_2,./images/robust_orl_70_10_2,robust,orl,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.41388888888888886,0.6161726327409645,0.15694496035575867
+robust_orl_70_10_3,./images/robust_orl_70_10_3,robust,orl,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.4361111111111111,0.6417018974871435,0.15774472057819366
+robust_orl_70_10_4,./images/robust_orl_70_10_4,robust,orl,"['block_noise', 'blur_noise']",0.7,1.0,,,,0.43333333333333335,0.6349665472329508,0.15620119869709015
+sparse_orl_70_5_0,./images/sparse_orl_70_5_0,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.4777777777777778,0.652976926086783,0.105844646692276
+sparse_orl_70_5_1,./images/sparse_orl_70_5_1,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.475,0.6612067628230475,0.10510175675153732
+sparse_orl_70_5_2,./images/sparse_orl_70_5_2,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.4361111111111111,0.6260125369461599,0.10612370073795319
+sparse_orl_70_5_3,./images/sparse_orl_70_5_3,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.4722222222222222,0.6608031367378867,0.10550112277269363
+sparse_orl_70_5_4,./images/sparse_orl_70_5_4,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.5,0.5,,0.48333333333333334,0.6542857010928494,0.10605769604444504
+sparse_orl_70_8_0,./images/sparse_orl_70_8_0,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.4777777777777778,0.6648790702193647,0.10982637107372284
+sparse_orl_70_8_1,./images/sparse_orl_70_8_1,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.4305555555555556,0.6338242470384147,0.11077161878347397
+sparse_orl_70_8_2,./images/sparse_orl_70_8_2,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.49722222222222223,0.6785777160651616,0.11052711308002472
+sparse_orl_70_8_3,./images/sparse_orl_70_8_3,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.4777777777777778,0.6578156232017529,0.10953188687562943
+sparse_orl_70_8_4,./images/sparse_orl_70_8_4,sparse,orl,"['block_noise', 'blur_noise']",0.7,,0.8,0.8,,0.5111111111111111,0.6751362085187655,0.10928897559642792
+sparse_orl_70_10_0,./images/sparse_orl_70_10_0,sparse,orl,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.49722222222222223,0.671090412434442,0.11426611989736557
+sparse_orl_70_10_1,./images/sparse_orl_70_10_1,sparse,orl,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.4166666666666667,0.627948309409742,0.1154070496559143
+sparse_orl_70_10_2,./images/sparse_orl_70_10_2,sparse,orl,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.4583333333333333,0.6533338552897953,0.11383704096078873
+sparse_orl_70_10_3,./images/sparse_orl_70_10_3,sparse,orl,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.4305555555555556,0.6244107252652291,0.11520439386367798
+sparse_orl_70_10_4,./images/sparse_orl_70_10_4,sparse,orl,"['block_noise', 'blur_noise']",0.7,,1.0,1.0,,0.5,0.6506160560546052,0.11334431916475296
+multiplicative_update_orl_70_0_0,./images/multiplicative_update_orl_70_0_0,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.4777777777777778,0.6523522152658537,0.10443630069494247
+multiplicative_update_orl_70_0_1,./images/multiplicative_update_orl_70_0_1,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.4361111111111111,0.6375292773248111,0.10401349514722824
+multiplicative_update_orl_70_0_2,./images/multiplicative_update_orl_70_0_2,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.425,0.6370569516511583,0.10443801432847977
+multiplicative_update_orl_70_0_3,./images/multiplicative_update_orl_70_0_3,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.4444444444444444,0.6327813752388562,0.10590621829032898
+multiplicative_update_orl_70_0_4,./images/multiplicative_update_orl_70_0_4,multiplicative_update,orl,"['block_noise', 'blur_noise']",0.7,,,,0.0,0.40555555555555556,0.608521527192861,0.10575012862682343
+robust_orl_100_5_0,./images/robust_orl_100_5_0,robust,orl,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.35833333333333334,0.5561215697198024,0.1580391228199005
+robust_orl_100_5_1,./images/robust_orl_100_5_1,robust,orl,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.37222222222222223,0.5613318075809265,0.1593998521566391
+robust_orl_100_5_2,./images/robust_orl_100_5_2,robust,orl,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.32222222222222224,0.5378162900419312,0.15793275833129883
+robust_orl_100_5_3,./images/robust_orl_100_5_3,robust,orl,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.3638888888888889,0.5717168516456782,0.1582087129354477
+robust_orl_100_5_4,./images/robust_orl_100_5_4,robust,orl,"['block_noise', 'blur_noise']",1.0,0.5,,,,0.34444444444444444,0.5337285285780117,0.15801192820072174
+robust_orl_100_8_0,./images/robust_orl_100_8_0,robust,orl,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.35,0.5469378626091853,0.15470147132873535
+robust_orl_100_8_1,./images/robust_orl_100_8_1,robust,orl,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.3611111111111111,0.5595012536523779,0.15496793389320374
+robust_orl_100_8_2,./images/robust_orl_100_8_2,robust,orl,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.36944444444444446,0.5547742401365275,0.1555054783821106
+robust_orl_100_8_3,./images/robust_orl_100_8_3,robust,orl,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.375,0.5697729707751167,0.15731874108314514
+robust_orl_100_8_4,./images/robust_orl_100_8_4,robust,orl,"['block_noise', 'blur_noise']",1.0,0.8,,,,0.3277777777777778,0.5319414831612821,0.15708251297473907
+robust_orl_100_10_0,./images/robust_orl_100_10_0,robust,orl,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.33055555555555555,0.5299150602095293,0.155764639377594
+robust_orl_100_10_1,./images/robust_orl_100_10_1,robust,orl,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.33611111111111114,0.5431605727831966,0.1545141190290451
+robust_orl_100_10_2,./images/robust_orl_100_10_2,robust,orl,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.39444444444444443,0.584528538901563,0.15533985197544098
+robust_orl_100_10_3,./images/robust_orl_100_10_3,robust,orl,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.3611111111111111,0.5612930455742992,0.15531447529792786
+robust_orl_100_10_4,./images/robust_orl_100_10_4,robust,orl,"['block_noise', 'blur_noise']",1.0,1.0,,,,0.36666666666666664,0.5573388506305943,0.15449769794940948
+sparse_orl_100_5_0,./images/sparse_orl_100_5_0,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.3861111111111111,0.5673462032577734,0.10278159379959106
+sparse_orl_100_5_1,./images/sparse_orl_100_5_1,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.3333333333333333,0.5394399405215401,0.10227333009243011
+sparse_orl_100_5_2,./images/sparse_orl_100_5_2,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.36944444444444446,0.5571524324337448,0.10242526978254318
+sparse_orl_100_5_3,./images/sparse_orl_100_5_3,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.4,0.576253933876991,0.10197645425796509
+sparse_orl_100_5_4,./images/sparse_orl_100_5_4,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.5,0.5,,0.4111111111111111,0.6072280383510549,0.10242382436990738
+sparse_orl_100_8_0,./images/sparse_orl_100_8_0,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.35,0.5422031529047528,0.1059097945690155
+sparse_orl_100_8_1,./images/sparse_orl_100_8_1,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.42777777777777776,0.6132722782633534,0.1056794747710228
+sparse_orl_100_8_2,./images/sparse_orl_100_8_2,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.37777777777777777,0.5633090210442525,0.10583321750164032
+sparse_orl_100_8_3,./images/sparse_orl_100_8_3,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.40555555555555556,0.5998876893865035,0.10721041262149811
+sparse_orl_100_8_4,./images/sparse_orl_100_8_4,sparse,orl,"['block_noise', 'blur_noise']",1.0,,0.8,0.8,,0.3611111111111111,0.5436014637550984,0.10746555775403976
+sparse_orl_100_10_0,./images/sparse_orl_100_10_0,sparse,orl,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.3416666666666667,0.5328691160040979,0.10944084823131561
+sparse_orl_100_10_1,./images/sparse_orl_100_10_1,sparse,orl,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.38333333333333336,0.5762376947983169,0.10993359982967377
+sparse_orl_100_10_2,./images/sparse_orl_100_10_2,sparse,orl,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.35833333333333334,0.5589736428977259,0.11079443246126175
+sparse_orl_100_10_3,./images/sparse_orl_100_10_3,sparse,orl,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.3527777777777778,0.5504488259744701,0.10933063179254532
+sparse_orl_100_10_4,./images/sparse_orl_100_10_4,sparse,orl,"['block_noise', 'blur_noise']",1.0,,1.0,1.0,,0.3472222222222222,0.5492349100048114,0.11065927147865295
+multiplicative_update_orl_100_0_0,./images/multiplicative_update_orl_100_0_0,multiplicative_update,orl,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.41944444444444445,0.6057919123247925,0.10105255991220474
+multiplicative_update_orl_100_0_1,./images/multiplicative_update_orl_100_0_1,multiplicative_update,orl,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.39166666666666666,0.5906999630404086,0.10041364282369614
+multiplicative_update_orl_100_0_2,./images/multiplicative_update_orl_100_0_2,multiplicative_update,orl,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.37777777777777777,0.566171706773057,0.10049489140510559
+multiplicative_update_orl_100_0_3,./images/multiplicative_update_orl_100_0_3,multiplicative_update,orl,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.3527777777777778,0.5511548943347108,0.10030072182416916
+multiplicative_update_orl_100_0_4,./images/multiplicative_update_orl_100_0_4,multiplicative_update,orl,"['block_noise', 'blur_noise']",1.0,,,,0.0,0.38333333333333336,0.5788762179234085,0.1010221317410469
