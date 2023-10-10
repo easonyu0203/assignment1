@@ -13,12 +13,12 @@ from utils.early_stopping import EarlyStopping
 
 class NMFBase:
     def __init__(self, V: np.array, num_features: int, max_iters: int = 1000, epsilon: float = 1e-10):
-        self.V = torch.tensor(V, dtype=torch.float32, device='cuda')
+        self.V = torch.tensor(V, dtype=torch.float32, device='mps')
         self.num_features = num_features
         self.max_iters = max_iters
         self.epsilon = epsilon
-        self.W = torch.abs(torch.randn(V.shape[0], num_features, device='cuda'))
-        self.H = torch.abs(torch.randn(num_features, V.shape[1], device='cuda'))
+        self.W = torch.abs(torch.randn(V.shape[0], num_features, device='mps'))
+        self.H = torch.abs(torch.randn(num_features, V.shape[1], device='mps'))
 
     def update_step(self, current_iter: int) -> None:
         raise NotImplementedError
